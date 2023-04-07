@@ -1,6 +1,6 @@
 # NCAA PowerRank
 
-NCAA PowerRank is a Python project for analyzing and ranking NCAA college football quartback performance by using a number of new metrics that evaluate different areas than traditional measures. These include the:
+NCAA PowerRank is a Python project for analyzing and ranking NCAA college football quartback performance by using a number of new metrics that evaluate different areas than traditional measures. These metrics include: 
 1. Decision-making index (DMI): A comprehensive evaluation of a quarterback's decision-making ability that considers completed passes, interceptions, sacks, and fumbles.
 2. Scramble efficiency index (SEI): A measure of a quarterback's efficiency when scrambling and improvising outside the pocket.
 3. Completion Rate Above Expected (CRAE): A metric that compares a quarterback's actual completion rate to their expected completion rate based on the difficulty of the passes they attempt.
