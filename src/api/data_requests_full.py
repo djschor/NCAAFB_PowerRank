@@ -53,7 +53,7 @@ def get_games(year=None, week=None, team=None, seasonType=None):
     Args:
         year (int, optional): The year of the season. Defaults to None.
         season (str, optional): The season to get games for (e.g. 'regular', 'postseason'). Defaults to None.
-        team (str, optional): The abbreviation for the team to get games for (e.g. 'ALB', 'UGA'). Defaults to None.
+        team (str, optional): The abbreviation for the team to get games for (e.g. 'Michigan', 'UGA'). Defaults to None.
 
     Returns:
         pd.DataFrame: A DataFrame containing game results.
@@ -99,7 +99,7 @@ def get_player_game_stats(year, week=None, seasonType=None, team=None):
     Args:
         year (int): The year of the season.
         season (str): The season of the year, e.g. 'regular' or 'postseason'.
-        team (str): The team code of the team, e.g. 'ALB' for Albany.
+        team (str): The team code of the team, e.g. 'Michigan' for Michigan.
 
     Returns:
         pd.DataFrame: A DataFrame containing player game stats.
@@ -116,7 +116,7 @@ def get_team_game_stats(year, season, team, week=None):
     Args:
         year (int): The year of the season.
         season (str): The season of the year, e.g. 'regular' or 'postseason'.
-        team (str): The team code of the team, e.g. 'ALB' for Albany.
+        team (str): The team code of the team, e.g. 'Michigan' for Michigan.
 
     Returns:
         pd.DataFrame: A DataFrame containing team game stats.
