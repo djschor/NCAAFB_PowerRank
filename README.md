@@ -1,6 +1,6 @@
 # NCAA PowerRank
 
-NCAA PowerRank is a Python project for analyzing and ranking NCAA college football quartback performance by using a number of new metrics that evaluate different areas than traditional measures. These metrics include: 
+NCAA PowerRank is a Python project created by Daniel Schorin for analyzing and ranking NCAA college football quartback performance by using a number of new metrics that evaluate different areas than traditional measures. These metrics include: 
 1. Decision-making index (DMI): A comprehensive evaluation of a quarterback's decision-making ability that considers completed passes, interceptions, sacks, and fumbles.
 2. Scramble efficiency index (SEI): A measure of a quarterback's efficiency when scrambling and improvising outside the pocket.
 3. Completion Rate Above Expected (CRAE): A metric that compares a quarterback's actual completion rate to their expected completion rate based on the difficulty of the passes they attempt.
@@ -67,3 +67,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Pandas](https://pandas.pydata.org/)
 - [Scikit-learn](https://scikit-learn.org/)
 - [Matplotlib](https://matplotlib.org/)
+- [The University of Michigan Football Team](https://mgoblue.com/sports/football)
