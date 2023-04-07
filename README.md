@@ -1,10 +1,10 @@
 # NCAA PowerRank
 
 NCAA PowerRank is a Python project created by Daniel Schorin for analyzing and ranking NCAA college football quartback performance by using a number of new metrics that evaluate different areas than traditional measures. These metrics include: 
-1. Decision-making index (DMI): A comprehensive evaluation of a quarterback's decision-making ability that considers completed passes, interceptions, sacks, and fumbles.
+1. Adaptive Quarterback Score (AQS): An efficiency metric that incorporates time to throw, pressure-adjusted completion percentage, situational pass success rate, third-down conversion efficiency, and weighted throw variety, evaluates a quarterback's adaptability, timing, and proficiency in diverse game scenarios.   
 2. Scramble efficiency index (SEI): A measure of a quarterback's efficiency when scrambling and improvising outside the pocket.
 3. Completion Rate Above Expected (CRAE): A metric that compares a quarterback's actual completion rate to their expected completion rate based on the difficulty of the passes they attempt.
-4. Time to Throw (TTT): A metric that measures the average amount of time a quarterback holds onto the ball before releasing it.
+4. Decision-making index (DMI): A comprehensive evaluation of a quarterback's decision-making ability that considers completed passes, interceptions, sacks, and fumbles.
 5. Big play ratio (BPR): A measure of a quarterback's ability to make big plays defined as passes that gain 20 or more yards.
 6. Touchdown to Interception Ratio on Deep Passes (TID) - measures a quarterback's success throwing deep passes by comparing the number of touchdowns to interceptions on throws over 20 yards.
 7. Red Zone Efficiency Rating (RZER): A metric that evaluates a quarterback's performance inside the red zone.
