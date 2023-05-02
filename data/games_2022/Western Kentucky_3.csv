@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Conference USA,0,Indiana,0,0,30,-3,9.6885125186,0.8230749507395136,0.6461499014790273,1719,384,1712,Western Kentucky

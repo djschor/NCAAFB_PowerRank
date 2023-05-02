@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4426348,Jayden Daniels,QB,LSU,SEC,0.5713,0.8149,0.2974,0.5197,0.614,0.648,0.523,0.688
+2022,4567747,Garrett Nussmeier,QB,LSU,SEC,0.087,0.1641,0.0,0.083,0.082,0.106,0.06,0.115
+2022,4685391,Walker Howard,QB,LSU,SEC,0.0111,0.0095,0.0129,0.0066,0.006,0.022,0.007,0.022

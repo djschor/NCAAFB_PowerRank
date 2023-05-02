@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4690977,Donovan Smith,QB,Texas Tech,Big 12,0.2626,0.3786,0.1221,0.2409,0.25,0.297,0.233,0.305
+2022,4360689,Tyler Shough,QB,Texas Tech,Big 12,0.1916,0.2598,0.1095,0.1785,0.185,0.226,0.199,0.203
+2022,4431465,Behren Morton,QB,Texas Tech,Big 12,0.1832,0.2835,0.0611,0.1806,0.185,0.184,0.135,0.226

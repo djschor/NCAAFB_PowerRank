@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,SEC,0,Miami (OH),1,1,37,24,4.6791355129,0.95428451428676,0.9085690285735198,1670,154,1713,Kentucky

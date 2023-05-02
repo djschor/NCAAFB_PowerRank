@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4362896,Tj McMahon,QB,Rice,Conference USA,0.3363,0.5995,0.0905,0.2881,0.375,0.407,0.251,0.45
+2022,4869321,AJ Padgett,QB,Rice,Conference USA,0.1317,0.2145,0.0553,0.1243,0.123,0.154,0.078,0.173
+2022,4683983,Shawqui Itraish,QB,Rice,Conference USA,0.0552,0.1008,0.0126,0.0311,0.055,0.093,0.045,0.092
+2022,4362528,Wiley Green,QB,Rice,Conference USA,0.0263,0.0465,0.0075,0.0141,0.028,0.049,0.039,0.033

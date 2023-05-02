@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4362365,Davis Brin,QB,Tulsa,American Athletic,0.3421,0.5964,0.0571,0.3065,0.324,0.479,0.274,0.44
+2022,4600403,Braylon Braxton,QB,Tulsa,American Athletic,0.2533,0.3878,0.1039,0.1855,0.247,0.365,0.228,0.359
+2022,4575909,Roman Fuller,QB,Tulsa,American Athletic,0.0024,0.0023,0.0026,0.0027,0.004,0.0,0.005,0.0

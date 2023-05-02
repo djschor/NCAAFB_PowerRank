@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4432577,C.J. Stroud,QB,Ohio State,Big Ten,0.4949,0.95,0.0768,0.4396,0.504,0.627,0.425,0.676
+2022,4433971,Kyle McCord,QB,Ohio State,Big Ten,0.0262,0.0476,0.0066,0.0145,0.029,0.054,0.019,0.056
+2022,4695709,Devin Brown,QB,Ohio State,Big Ten,0.0011,0.0,0.0022,0.0,0.0,0.0,0.004,0.0

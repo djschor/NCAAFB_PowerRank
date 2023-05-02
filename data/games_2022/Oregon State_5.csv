@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Pac-12,1,Utah,0,0,16,-26,3.4881398442,0.0042031091531622,-0.9915937816936756,1598,-249,1559,Oregon State

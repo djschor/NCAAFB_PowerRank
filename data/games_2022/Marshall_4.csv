@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Sun Belt,1,Troy,0,0,7,-9,8.3185230943,0.0067943938739852,-0.9864112122520295,1570,229,1539,Marshall

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Pac-12,1,USC,0,0,35,-6,3.2921570308,0.0303275663030847,-0.9393448673938304,1444,-282,1450,California

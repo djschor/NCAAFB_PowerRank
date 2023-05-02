@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Mountain West,1,Wyoming,0,0,14,-14,5.97901113,0.0026327003867447,-0.9947345992265104,1439,59,1405,Utah State

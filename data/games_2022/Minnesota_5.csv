@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Big Ten,1,Purdue,1,0,10,-10,7.3634099439,0.3074640271617482,-0.3850719456765036,1823,196,1784,Minnesota

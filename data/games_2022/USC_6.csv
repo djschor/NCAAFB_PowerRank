@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Pac-12,1,Washington State,1,1,30,16,4.6110838627,0.9101595843020138,0.8203191686040278,1708,34,1739,USC

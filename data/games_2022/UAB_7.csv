@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Conference USA,1,Charlotte,1,1,34,14,5.1168817289,0.9885618264360024,0.9771236528720048,1594,483,1584,UAB

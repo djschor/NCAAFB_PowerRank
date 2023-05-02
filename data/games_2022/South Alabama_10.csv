@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Sun Belt,1,Georgia Southern,0,1,38,7,6.4159701017,0.9529034282739338,0.9058068565478676,1501,75,1508,South Alabama

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,American Athletic,0,North Texas,0,1,48,38,1.6587657773,0.9894332161109816,0.9788664322219632,1574,111,1671,SMU

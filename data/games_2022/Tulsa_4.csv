@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,American Athletic,0,Ole Miss,0,0,27,-8,3.4191425486,0.2960416823579798,-0.4079166352840404,1499,-249,1502,Tulsa

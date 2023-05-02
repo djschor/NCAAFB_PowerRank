@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,ACC,0,Old Dominion,0,0,17,-3,9.2340782584,0.993763288475589,0.987526576951178,1412,22,1411,Virginia Tech

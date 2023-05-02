@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Mountain West,1,Hawai'i,0,1,27,7,5.0596555356,0.9982061564689636,0.9964123129379274,1414,254,1408,Wyoming

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Big Ten,1,Illinois,0,1,31,7,7.4224634176,0.6135595761646657,0.2271191523293314,1599,-126,1622,Purdue

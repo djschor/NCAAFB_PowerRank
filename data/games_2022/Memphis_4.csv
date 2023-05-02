@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,American Athletic,0,North Texas,1,1,44,10,4.4589108317,0.925408161374224,0.8508163227484481,1492,218,1494,Memphis

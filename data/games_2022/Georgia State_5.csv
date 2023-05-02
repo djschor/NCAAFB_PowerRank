@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Sun Belt,0,Army,0,1,31,17,5.0939791362,0.9588844918533492,0.9177689837066988,1424,-104,1476,Georgia State

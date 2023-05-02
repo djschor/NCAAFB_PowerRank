@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Pac-12,0,Minnesota,0,0,7,-42,1.1685222491,0.0010579530679424,-0.9978840938641153,1281,-410,1212,Colorado

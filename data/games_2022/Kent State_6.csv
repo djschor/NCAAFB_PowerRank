@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Mid-American,1,Miami (OH),0,0,24,-3,,,,1313,-139,1314,Kent State

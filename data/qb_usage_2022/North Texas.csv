@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4360163,Austin Aune,QB,North Texas,Conference USA,0.4683,0.9415,0.0688,0.4,0.452,0.663,0.367,0.646
+2022,4691272,Stone Earle,QB,North Texas,Conference USA,0.0256,0.016,0.0344,0.025,0.037,0.006,0.04,0.016
+2022,4427351,Grant Gunnell,QB,North Texas,Conference USA,0.0085,0.0186,0.0,0.0028,0.004,0.012,0.009,0.016

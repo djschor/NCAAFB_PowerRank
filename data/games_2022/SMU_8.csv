@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,American Athletic,1,Cincinnati,1,0,27,-2,4.7161008715,0.0693639384814104,-0.8612721230371791,1576,-208,1584,SMU

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,1,Northwestern,0,0,28,-3,8.3493556676,0.4524565402648056,-0.0950869194703887,1636.0,275.0,1616.0,Nebraska

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Mountain West,0,UTEP,0,0,10,-17,9.1512878063,0.0027732251449092,-0.9944535497101816,1618,373,1541,Boise State

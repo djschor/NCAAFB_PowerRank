@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Mountain West,1,Fresno State,1,0,14,-27,0.8208252781,0.3438664873170685,-0.312267025365863,1277,-306,1240,Nevada

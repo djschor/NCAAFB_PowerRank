@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Mid-American,1,Eastern Michigan,1,0,16,-4,7.4877544047,0.381680723790571,-0.2366385524188579,1297,4,1290,Ball State

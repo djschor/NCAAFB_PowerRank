@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Sun Belt,1,Marshall,1,0,10,-13,3.5611840933,0.014898002888233,-0.970203994223534,1390,-171,1377,Georgia Southern

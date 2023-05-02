@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big 12,0,Duke,1,1,35,8,4.3420060644,0.9913096338325452,0.9826192676650908,1342,74,1349,Kansas

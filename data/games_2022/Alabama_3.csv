@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,SEC,0,Louisiana Monroe,1,1,63,56,1.0168287875,0.996636097241704,0.993272194483408,2073,933,2121,Alabama

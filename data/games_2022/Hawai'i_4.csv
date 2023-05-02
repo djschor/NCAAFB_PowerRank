@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Mountain West,0,New Mexico State,0,0,26,-19,4.2506333194,0.0022601619718134,-0.9954796760563732,1145,107,1090,Hawai'i

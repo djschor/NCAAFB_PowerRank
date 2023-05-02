@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4243322,Jake Haener,QB,Fresno State,Mountain West,0.3886,0.6926,0.0431,0.3514,0.407,0.466,0.286,0.54
+2022,4605998,Logan Fife,QB,Fresno State,Mountain West,0.1485,0.2357,0.0502,0.1439,0.129,0.195,0.111,0.19
+2022,4602923,Jaylen Henderson,QB,Fresno State,Mountain West,0.0022,0.0,0.0048,0.0024,0.003,0.0,0.0,0.004

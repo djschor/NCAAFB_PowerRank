@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,ACC,1,Virginia,0,1,31,3,6.0595151939,0.5893594673325172,0.1787189346650344,1651,263,1640,North Carolina

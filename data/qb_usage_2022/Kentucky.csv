@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4361418,Will Levis,QB,Kentucky,SEC,0.4295,0.8015,0.0874,0.2977,0.453,0.657,0.447,0.582
+2022,4685698,Destin Wade,QB,Kentucky,SEC,0.0569,0.0876,0.0291,0.0434,0.056,0.083,0.06,0.07
+2022,4682688,Kaiya Sheron,QB,Kentucky,SEC,0.0495,0.0902,0.0121,0.0318,0.056,0.071,0.025,0.088
+2022,4429191,Deuce Hogan,QB,Kentucky,SEC,0.0087,0.018,0.0,0.0029,0.007,0.012,0.01,0.015

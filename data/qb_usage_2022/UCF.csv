@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4426494,John Rhys Plumlee,QB,UCF,American Athletic,0.4482,0.7275,0.2171,0.3835,0.453,0.552,0.414,0.587
+2022,4597499,Mikey Keene,QB,UCF,American Athletic,0.0974,0.2005,0.0114,0.0776,0.116,0.119,0.075,0.152
+2022,4773919,Thomas Castellanos,QB,UCF,American Athletic,0.0277,0.0383,0.019,0.0188,0.028,0.052,0.01,0.061

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,SEC,0,Mercer,1,1,42,26,1.2141253582,0.9989364402173216,0.9978728804346432,1632,,1632,Auburn

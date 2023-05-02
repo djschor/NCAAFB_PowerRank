@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,ACC,0,Texas Tech,1,1,27,13,3.1428230837,0.9232074879330704,0.8464149758661409,1628,90,1646,NC State

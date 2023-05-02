@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4709977,Brayden Schager,QB,Hawai'i,Mountain West,0.4538,0.7405,0.0847,0.3824,0.477,0.554,0.396,0.587
+2022,4426360,Joey Yellen,QB,Hawai'i,Mountain West,0.0788,0.1377,0.0026,0.0561,0.081,0.128,0.047,0.132
+2022,4361141,Cammon Cooper,QB,Hawai'i,Mountain West,0.0023,0.0,0.0053,0.0,0.0,0.005,0.009,0.0

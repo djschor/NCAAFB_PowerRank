@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Pac-12,1,UCLA,0,0,32,-10,6.7520978485,0.0269409361772733,-0.9461181276454534,1886,174,1856,Utah

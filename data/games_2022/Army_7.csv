@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,FBS Independents,0,Colgate,1,1,42,25,1.5445206166,0.9909462301986832,0.9818924603973668,1398,,1398,Army

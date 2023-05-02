@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,ACC,1,Louisville,0,0,21,-27,6.7583656735,0.0022568247637382,-0.9954863504725237,1776,150,1687,Wake Forest

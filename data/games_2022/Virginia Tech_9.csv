@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,ACC,1,NC State,0,0,21,-1,7.6057577502,0.5674631316917521,0.1349262633835042,1323,-286,1331,Virginia Tech

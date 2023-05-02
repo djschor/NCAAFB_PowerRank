@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,ACC,0,Northwestern,0,1,31,8,6.7576191243,0.8214996688323436,0.6429993376646872,1240,-141,1268,Duke

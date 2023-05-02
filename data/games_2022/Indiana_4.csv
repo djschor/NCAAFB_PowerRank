@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big Ten,0,Cincinnati,0,0,24,-21,2.7505158874,0.0111988896256386,-0.9776022207487228,1342,-453,1336,Indiana

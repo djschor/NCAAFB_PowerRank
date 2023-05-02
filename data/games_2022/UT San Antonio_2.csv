@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Conference USA,0,Army,0,1,41,3,12.6351849584,0.0889294230916586,-0.8221411538166827,1515,-19,1521,UT San Antonio

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Pac-12,1,UCLA,1,0,17,-28,1.0677081252,0.0015556408809567,-0.9968887182380864,1212,-470,1189,Colorado

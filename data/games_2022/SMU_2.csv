@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,0,Lamar,1,1,45,29,5.5835799006,0.9978511925795336,0.9957023851590672,1684,,1684,SMU

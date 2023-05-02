@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mid-American,0,Pittsburgh,1,0,13,-21,3.0451858373,0.0003975254668596,-0.9992049490662808,1487,-174,1453,Western Michigan

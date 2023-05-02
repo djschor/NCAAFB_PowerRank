@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Sun Belt,1,Old Dominion,1,1,27,13,2.1667112337,0.998161529787618,0.996323059575236,1594,279,1597,Appalachian State

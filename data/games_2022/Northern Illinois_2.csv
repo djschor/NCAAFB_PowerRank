@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mid-American,0,Tulsa,0,0,35,-3,8.5016490967,0.1931404874939599,-0.6137190250120801,1376,-124,1377,Northern Illinois

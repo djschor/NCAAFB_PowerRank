@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Big 12,1,Kansas State,1,1,38,10,5.5355980095,0.4097579831357964,-0.1804840337284071,1650,-36,1670,TCU

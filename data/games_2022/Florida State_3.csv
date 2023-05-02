@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,ACC,1,Louisville,0,1,35,4,8.9194531138,0.7386926127682116,0.4773852255364232,1504,-2,1511,Florida State

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Sun Belt,0,Liberty,1,0,24,-14,4.6502159291,0.1193494047898608,-0.7613011904202783,1363,-207,1351,Old Dominion

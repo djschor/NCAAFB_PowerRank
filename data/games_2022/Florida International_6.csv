@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Conference USA,0,Connecticut,1,0,12,-21,2.9107861003,0.0031638841310031,-0.9936722317379936,943,-86,899,Florida International

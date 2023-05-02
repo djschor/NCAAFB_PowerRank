@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,ACC,1,Duke,1,0,21,-24,5.9788935525,0.1171662714011759,-0.7656674571976482,1530,184,1443,Miami

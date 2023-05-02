@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Pac-12,1,California,1,1,20,7,8.405056835,0.9766366518765722,0.9532733037531446,1147,-356,1179,Colorado

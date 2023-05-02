@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,SEC,1,Ole Miss,1,1,45,25,6.5275934964,0.9979455355600848,0.9958910711201696,1612,-163,1695,LSU

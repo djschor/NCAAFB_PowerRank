@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Big Ten,0,Colorado,1,1,49,42,1.1685222491,0.9989420469320576,0.9978840938641153,1691,410,1760,Minnesota

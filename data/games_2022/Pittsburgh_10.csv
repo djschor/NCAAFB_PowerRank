@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,ACC,1,Syracuse,1,1,19,10,6.0914109345,0.9970301903094002,0.9940603806188004,1580,17,1596,Pittsburgh

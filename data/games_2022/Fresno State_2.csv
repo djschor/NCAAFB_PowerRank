@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mountain West,0,Oregon State,1,0,32,-3,7.4268814616,0.1341690344437201,-0.7316619311125598,1590,-3,1586,Fresno State

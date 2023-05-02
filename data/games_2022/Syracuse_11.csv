@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,ACC,1,Florida State,1,0,3,-35,1.7083883856,0.000321623175112,-0.999356753649776,1547,-161,1467,Syracuse

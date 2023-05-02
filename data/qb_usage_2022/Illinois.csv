@@ -1,0 +1,3 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4240391,Tommy DeVito,QB,Illinois,Big Ten,0.4255,0.8568,0.0861,0.3219,0.431,0.625,0.394,0.594
+2022,4361530,Artur Sitkowski,QB,Illinois,Big Ten,0.0283,0.0494,0.0117,0.0147,0.033,0.049,0.028,0.047

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mountain West,0,Idaho State,1,1,38,31,4.7549314128,0.9803013683849504,0.9606027367699008,1474,,1474,San Diego State

@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4427238,Dillon Gabriel,QB,Oklahoma,Big 12,0.4203,0.8197,0.101,0.4442,0.353,0.486,0.308,0.482
+2022,4428887,Davis Beville,QB,Oklahoma,Big 12,0.0471,0.0865,0.0155,0.0333,0.03,0.103,0.046,0.067
+2022,4755664,Nick Evers,QB,Oklahoma,Big 12,0.0011,0.0024,0.0,0.0,0.0,0.005,0.004,0.0

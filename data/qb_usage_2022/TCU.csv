@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4427105,Max Duggan,QB,TCU,Big 12,0.5429,0.9207,0.2045,0.4459,0.555,0.742,0.523,0.706
+2022,4692530,Chandler Morris,QB,TCU,Big 12,0.0326,0.0564,0.0113,0.0195,0.034,0.056,0.027,0.056
+2022,4874527,Sam Jackson,QB,TCU,Big 12,0.0128,0.0104,0.015,0.0065,0.021,0.01,0.015,0.023
+2022,4685401,Josh Hoover,QB,TCU,Big 12,0.001,0.0021,0.0,0.0,0.003,0.0,0.004,0.0

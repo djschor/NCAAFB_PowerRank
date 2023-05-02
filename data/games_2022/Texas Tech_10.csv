@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Big 12,1,TCU,0,0,24,-10,6.6735217728,0.2941689825979376,-0.4116620348041247,1561,-106,1551,Texas Tech

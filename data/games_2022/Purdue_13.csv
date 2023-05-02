@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Big Ten,1,Indiana,0,1,30,14,3.6315700135,0.8783281528401593,0.7566563056803187,1616,278,1622,Purdue

@@ -1,0 +1,6 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4426657,Ryan Hilinski,QB,Northwestern,Big Ten,0.3007,0.6115,0.0265,0.2472,0.332,0.323,0.272,0.388
+2022,4683058,Brendan Sullivan,QB,Northwestern,Big Ten,0.1644,0.2446,0.0973,0.1472,0.136,0.224,0.142,0.201
+2022,4875352,Cole Freeman,QB,Northwestern,Big Ten,0.0619,0.1007,0.0288,0.0444,0.066,0.083,0.049,0.093
+2022,4911961,Jack Lausch,QB,Northwestern,Big Ten,0.0146,0.0192,0.0111,0.0083,0.013,0.026,0.004,0.031
+2022,4609049,Carl Richardson,QB,Northwestern,Big Ten,0.0079,0.0168,0.0,0.0056,0.01,0.01,0.0,0.017

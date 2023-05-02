@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Conference USA,0,Alabama A&M,1,1,59,59,1.0305953775,0.99894038261604,0.9978807652320802,1546,,1546,UAB

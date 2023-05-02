@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,0,Buffalo,1,1,31,21,1.8374388254,0.9981603590115268,0.9963207180230534,1496,114,1534,Maryland

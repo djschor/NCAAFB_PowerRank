@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,ACC,1,NC State,1,1,24,15,5.1217444777,0.9906737289592592,0.9813474579185184,1539,-112,1581,Syracuse

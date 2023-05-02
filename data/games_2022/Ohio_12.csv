@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Mid-American,1,Ball State,0,1,32,14,3.6174959464,0.9901099559912048,0.9802199119824094,1451,145,1469,Ohio

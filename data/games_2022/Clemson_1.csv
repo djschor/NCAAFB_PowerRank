@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,ACC,1,Georgia Tech,0,1,41,31,1.9411586454,0.9713335939673682,0.9426671879347364,1766,420,1795,Clemson

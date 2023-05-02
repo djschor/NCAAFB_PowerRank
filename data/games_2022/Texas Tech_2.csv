@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big 12,0,Houston,1,1,33,3,10.9707925617,0.7680526596767249,0.5361053193534497,1536,-81,1538,Texas Tech

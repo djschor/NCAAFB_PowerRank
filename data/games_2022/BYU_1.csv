@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,FBS Independents,0,South Florida,0,1,50,29,0.6523155927,0.9994056184906724,0.9988112369813448,1648,364,1685,BYU

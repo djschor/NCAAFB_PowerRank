@@ -1,0 +1,54 @@
+.gauge-container {
+    position: relative;
+    width: 150px;
+    height: 75px;
+    overflow: hidden;
+    background: #222;
+    border-radius: 150px 150px 0 0;
+    box-shadow: inset 0 -4px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .gauge-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  }
+  
+  .gauge-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #b22222, #ff8c00, #228b22);
+    border-radius: 150px 150px 0 0;
+    transform-origin: 50% 100%;
+  }
+  
+  .gauge-container::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 1px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateX(-50%);
+  }
+  
+  .gauge-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 100%, transparent 50%, rgba(0, 0, 0, 0.2) 50%);
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0 50%, 50% 50%, 100% 50%, 100% 100%, 0 100%);
+  }
+  

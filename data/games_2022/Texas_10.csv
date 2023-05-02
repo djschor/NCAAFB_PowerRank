@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Big 12,1,Kansas State,0,1,34,7,4.0316994183,0.7930463664772849,0.5860927329545698,1883,42,1893,Texas

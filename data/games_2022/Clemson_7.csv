@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,ACC,1,Florida State,0,1,34,6,3.602959647,0.8454717562400473,0.6909435124800947,1838,273,1830,Clemson

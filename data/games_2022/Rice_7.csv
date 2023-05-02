@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Conference USA,1,Florida Atlantic,0,0,14,-3,5.2848607451,0.0834006870323563,-0.8331986259352874,1225,-147,1226,Rice

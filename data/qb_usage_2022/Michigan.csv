@@ -1,0 +1,8 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4433970,J.J. McCarthy,QB,Michigan,Big Ten,0.4012,0.8538,0.1046,0.3657,0.389,0.522,0.298,0.568
+2022,4427455,Cade McNamara,QB,Michigan,Big Ten,0.03,0.0757,0.0,0.0203,0.038,0.043,0.023,0.053
+2022,4878681,Davis Warren,QB,Michigan,Big Ten,0.0124,0.0235,0.0051,0.0113,0.016,0.011,0.013,0.012
+2022,4685495,Alex Orji,QB,Michigan,Big Ten,0.0072,0.0026,0.0103,0.0023,0.013,0.005,0.017,0.004
+2022,4362159,Alan Bowman,QB,Michigan,Big Ten,0.0072,0.0183,0.0,0.0045,0.009,0.011,0.007,0.012
+2022,4896390,Brandon Mann,QB,Michigan,Big Ten,0.001,0.0026,0.0,0.0023,0.0,0.0,0.0,0.0
+2022,4427857,Andy Maddox,QB,Michigan,Big Ten,0.001,0.0026,0.0,0.0,0.003,0.0,0.0,0.004

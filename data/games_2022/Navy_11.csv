@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,American Athletic,0,Notre Dame,1,0,32,-3,1.1825930227,0.8998184275893657,0.7996368551787314,1424,-424,1441,Navy

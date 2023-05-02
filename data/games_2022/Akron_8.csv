@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Mid-American,1,Kent State,0,0,27,-6,5.2968011192,0.1332015369098612,-0.7335969261802775,966,-322,974,Akron

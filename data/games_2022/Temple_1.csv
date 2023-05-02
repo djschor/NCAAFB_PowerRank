@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,American Athletic,0,Duke,0,0,0,-30,2.0028841548,0.0010748210175389,-0.9978503579649222,1101,-67,1029,Temple

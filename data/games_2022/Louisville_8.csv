@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,ACC,1,Pittsburgh,1,1,24,14,7.4509577458,0.8834747596048148,0.7669495192096297,1592,-64,1626,Louisville

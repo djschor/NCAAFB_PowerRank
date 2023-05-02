@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,ACC,1,Pittsburgh,0,0,26,-2,6.0882976954,0.0893968563826788,-0.8212062872346424,1460,-195,1462,Duke

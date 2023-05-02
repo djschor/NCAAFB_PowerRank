@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,SEC,1,Texas A&M,1,1,13,3,6.4550346961,0.9825216693267512,0.9650433386535026,1502,-101,1504,Auburn

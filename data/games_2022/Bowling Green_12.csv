@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Mid-American,1,Toledo,0,1,42,7,7.6387238121,0.6798747647096248,0.3597495294192496,1096,-453,1149,Bowling Green

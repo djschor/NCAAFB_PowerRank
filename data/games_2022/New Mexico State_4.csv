@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,FBS Independents,0,Hawai'i,1,1,45,19,4.2506333194,0.9977398380281866,0.9954796760563732,1038,-107,1093,New Mexico State

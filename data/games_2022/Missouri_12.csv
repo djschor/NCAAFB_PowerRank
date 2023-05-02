@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,SEC,0,New Mexico State,1,1,45,31,1.3336480116,0.998552877435816,0.9971057548716322,1424,343,1467,Missouri

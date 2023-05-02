@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,FBS Independents,0,Ball State,0,0,21,-4,8.9367215188,0.8641271670790708,0.7282543341581416,1073,-228,1077,Connecticut

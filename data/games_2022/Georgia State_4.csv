@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Sun Belt,1,Coastal Carolina,1,0,24,-17,3.2445168047,0.2346680212841463,-0.5306639574317074,1444,-212,1424,Georgia State

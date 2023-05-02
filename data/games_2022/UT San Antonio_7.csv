@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Conference USA,1,Florida International,0,1,30,20,0.872078883,0.9985279910394634,0.997055982078927,1523,624,1512,UT San Antonio

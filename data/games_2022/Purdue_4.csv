@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big Ten,0,Florida Atlantic,1,1,28,2,5.6819517463,0.3062901544859587,-0.3874196910280825,1629,206,1627,Purdue

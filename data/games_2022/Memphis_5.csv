@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,American Athletic,1,Temple,1,1,24,21,5.3899647219,0.7684014331631207,0.5368028663262414,1494,390,1506,Memphis

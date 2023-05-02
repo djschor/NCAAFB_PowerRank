@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,SEC,1,Ole Miss,0,1,30,6,8.0671124753,0.4241583298813997,-0.1516833402372006,2172,478,2151,Alabama

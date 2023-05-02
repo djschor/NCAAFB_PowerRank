@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4360271,Tanner Mordecai,QB,SMU,American Athletic,0.489,0.8588,0.0915,0.4603,0.456,0.6,0.361,0.625
+2022,4432767,Preston Stone,QB,SMU,American Athletic,0.0612,0.0928,0.0277,0.0612,0.044,0.08,0.029,0.087
+2022,5084084,Kevin Jennings,QB,SMU,American Athletic,0.0261,0.0445,0.0064,0.0204,0.025,0.045,0.018,0.04

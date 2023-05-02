@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4431387,Evan Simon,QB,Rutgers,Big Ten,0.2109,0.4351,0.0246,0.1585,0.207,0.308,0.138,0.323
+2022,4893657,Gavin Wimsatt,QB,Rutgers,Big Ten,0.2065,0.3831,0.0601,0.1549,0.207,0.301,0.138,0.319
+2022,4243539,Noah Vedral,QB,Rutgers,Big Ten,0.09,0.1494,0.041,0.0563,0.095,0.144,0.078,0.138

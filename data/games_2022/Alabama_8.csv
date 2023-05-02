@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,SEC,1,Mississippi State,1,1,30,24,1.8459459884,0.9670293630524318,0.9340587261048636,2174,473,2185,Alabama

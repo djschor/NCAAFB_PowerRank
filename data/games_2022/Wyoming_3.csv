@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mountain West,1,Air Force,1,1,17,3,6.840130195,0.303505687817692,-0.3929886243646159,1411,-284,1416,Wyoming

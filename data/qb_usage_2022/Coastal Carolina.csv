@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4427936,Grayson McCall,QB,Coastal Carolina,Sun Belt,0.4406,0.7956,0.1481,0.4103,0.429,0.532,0.345,0.549
+2022,4427354,Jarrett Guest,QB,Coastal Carolina,Sun Belt,0.1076,0.1657,0.0602,0.0625,0.119,0.173,0.096,0.18
+2022,4361032,Bryce Carpenter,QB,Coastal Carolina,Sun Belt,0.0413,0.0193,0.0602,0.0326,0.06,0.038,0.056,0.049
+2022,4806463,Bryce Archie,QB,Coastal Carolina,Sun Belt,0.0088,0.011,0.0069,0.0054,0.004,0.026,0.01,0.012

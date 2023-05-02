@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Pac-12,0,Mississippi State,1,0,17,-22,5.0176472013,0.0021125800380134,-0.9957748399239732,1377,-206,1343,Arizona

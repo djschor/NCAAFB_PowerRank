@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4570259,Daniel Richardson,QB,Central Michigan,Mid-American,0.4297,0.8036,0.0364,0.3406,0.426,0.594,0.345,0.583
+2022,4709012,Jase Bauer,QB,Central Michigan,Mid-American,0.134,0.1473,0.1232,0.1375,0.136,0.113,0.147,0.117
+2022,4916888,Bert Emanuel Jr.,QB,Central Michigan,Mid-American,0.0663,0.0207,0.1176,0.0906,0.07,0.025,0.073,0.038

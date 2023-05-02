@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Big Ten,1,Northwestern,1,1,33,20,2.6390414214,0.997851811332504,0.9957036226650082,1632,316,1648,Iowa

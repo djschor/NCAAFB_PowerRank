@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,American Athletic,1,Cincinnati,0,0,25,-2,7.9180142871,0.6481374373372442,0.2962748746744884,1585,-179,1587,East Carolina

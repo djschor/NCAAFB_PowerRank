@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,FBS Independents,0,North Carolina,0,1,45,13,3.6822980626,0.8600705444601833,0.7201410889203665,1780,211,1790,Notre Dame

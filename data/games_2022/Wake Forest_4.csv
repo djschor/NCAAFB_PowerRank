@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,ACC,1,Clemson,1,0,45,-6,9.6877149945,0.4058257794194493,-0.1883484411611014,1667,-141,1666,Wake Forest

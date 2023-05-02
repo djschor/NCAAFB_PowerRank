@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Pac-12,0,Colorado State,1,1,38,31,1.4603485917,0.9989231541463116,0.9978463082926232,1604,311,1651,Washington State

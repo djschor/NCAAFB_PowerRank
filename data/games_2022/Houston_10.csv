@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,American Athletic,1,SMU,0,0,63,-14,4.5684365216,0.2621606528139028,-0.4756786943721944,1554,-37,1529,Houston

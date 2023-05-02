@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,SEC,1,Vanderbilt,1,0,21,-3,6.4014531965,0.0571413287003727,-0.8857173425992545,1610,339,1583,Kentucky

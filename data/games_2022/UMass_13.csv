@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,FBS Independents,1,Army,1,0,7,-37,1.4210881735,0.0097044107838715,-0.9805911784322568,899,-557,861,UMass

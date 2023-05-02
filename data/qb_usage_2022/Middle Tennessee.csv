@@ -1,0 +1,6 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4291782,Chase Cunningham,QB,Middle Tennessee,Conference USA,0.576,0.8958,0.1704,0.5162,0.591,0.684,0.506,0.689
+2022,4682518,Nick Vattiato,QB,Middle Tennessee,Conference USA,0.0701,0.0966,0.037,0.0623,0.067,0.083,0.056,0.088
+2022,4812474,DJ Riles,QB,Middle Tennessee,Conference USA,0.0128,0.0095,0.0173,0.015,0.016,0.005,0.0,0.019
+2022,4249970,Preston Rice,QB,Middle Tennessee,Conference USA,0.0074,0.0019,0.0148,0.0075,0.006,0.005,0.009,0.006
+2022,4686519,Stone Frost,QB,Middle Tennessee,Conference USA,0.0053,0.0019,0.0099,0.005,0.003,0.005,0.009,0.003

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Mountain West,1,Boise State,0,0,10,-39,1.4439570353,0.0010519742648784,-0.9978960514702432,1270,-368,1206,Colorado State

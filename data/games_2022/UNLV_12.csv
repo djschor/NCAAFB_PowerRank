@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Mountain West,1,Hawai'i,0,0,25,-6,7.8474144785,0.3795118930107682,-0.2409762139784635,1288,188,1271,UNLV

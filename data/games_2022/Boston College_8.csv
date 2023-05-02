@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,ACC,1,Wake Forest,0,0,15,-28,2.3114850699,0.0042253372388384,-0.9915493255223232,1317,-434,1292,Boston College

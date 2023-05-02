@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,ACC,1,Wake Forest,0,0,35,-10,7.3221825098,0.3423779834983622,-0.3152440330032756,1467,-196,1463,Syracuse

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Big 12,1,Oklahoma,0,0,13,-15,2.5413984926,0.0448136221774777,-0.9103727556450444,1589,-46,1562,Oklahoma State

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Pac-12,1,Washington State,0,0,18,-10,2.4266802312,0.5439592375447515,0.087918475089503,1492,-198,1489,Arizona State

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Conference USA,1,North Texas,1,0,13,-27,6.0836882038,0.0018343211660421,-0.996331357667916,1782,421,1648,Western Kentucky

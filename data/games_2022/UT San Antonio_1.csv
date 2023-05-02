@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Conference USA,0,Houston,1,0,35,-2,6.359814692,0.2888714054420264,-0.4222571891159472,1512,-108,1515,UT San Antonio

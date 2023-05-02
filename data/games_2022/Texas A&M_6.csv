@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,SEC,1,Alabama,0,0,20,-4,3.5574847992,0.0488481626923911,-0.9023036746152177,1658,-532,1669,Texas A&M

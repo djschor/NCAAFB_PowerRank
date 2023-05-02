@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Big 12,1,Kansas,0,1,55,41,1.418175796,0.7526897004388746,0.5053794008777494,1862,433,1927,Texas

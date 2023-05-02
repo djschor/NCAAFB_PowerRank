@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,SEC,1,Tennessee,1,1,63,25,6.903828433,0.9938376861899691,0.9876753723799384,1460,-558,1599,South Carolina

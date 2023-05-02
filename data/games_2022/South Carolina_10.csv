@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,SEC,1,Vanderbilt,0,1,38,11,3.1636656294,0.6948839978615362,0.3897679957230724,1538,266,1539,South Carolina

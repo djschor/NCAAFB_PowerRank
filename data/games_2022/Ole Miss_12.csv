@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,SEC,1,Arkansas,0,0,27,-15,6.1218297096,0.1409587862490212,-0.7180824275019575,1715,55,1679,Ole Miss

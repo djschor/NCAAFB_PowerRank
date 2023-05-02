@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Sun Belt,1,Coastal Carolina,1,0,21,-7,3.7112525549,0.2134235842580241,-0.5731528314839518,1090,-581,1117,Louisiana Monroe

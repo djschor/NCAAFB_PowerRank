@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Mid-American,1,Miami (OH),0,1,16,6,4.4018291832,0.2532883064392847,-0.4934233871214306,1255,-181,1280,Western Michigan

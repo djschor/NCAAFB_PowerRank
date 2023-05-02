@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,ACC,1,Miami,1,0,14,-21,3.9706031,0.0019655750692991,-0.9960688498614018,1250,-89,1206,Georgia Tech

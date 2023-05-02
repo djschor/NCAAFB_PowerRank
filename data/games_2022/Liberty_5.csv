@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,FBS Independents,0,Old Dominion,0,1,38,14,4.6502159291,0.8806505952101391,0.7613011904202783,1570,207,1582,Liberty

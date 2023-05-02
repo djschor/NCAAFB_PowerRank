@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Mountain West,1,Air Force,1,0,3,-10,3.1602420508,0.0025191724145329,-0.9949616551709344,1487,-244,1487,San Diego State

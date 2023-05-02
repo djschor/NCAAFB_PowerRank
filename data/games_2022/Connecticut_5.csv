@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,FBS Independents,0,Fresno State,1,1,19,5,5.3097776208,0.9720392218645612,0.9440784437291224,999,-518,1029,Connecticut

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Mid-American,0,UMass,1,1,20,7,6.9318744984,0.9868226535868048,0.9736453071736096,1334,460,1320,Eastern Michigan

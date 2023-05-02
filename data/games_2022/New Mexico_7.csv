@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Mountain West,0,New Mexico State,0,0,9,-12,5.1206973949,0.0653311518375299,-0.8693376963249401,1183,143,1148,New Mexico

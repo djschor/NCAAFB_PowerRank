@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Sun Belt,1,Coastal Carolina,0,1,49,28,5.3681895758,0.998079859951412,0.9961597199028244,1351,-293,1469,Old Dominion

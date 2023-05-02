@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,American Athletic,1,Navy,0,1,38,18,2.7337609673,0.6756820043505738,0.3513640087011476,1515,46,1554,Houston

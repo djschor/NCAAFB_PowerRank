@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mountain West,0,California,0,0,14,-6,6.2895707636,0.0628475280638061,-0.8743049438723879,1300,-210,1303,UNLV

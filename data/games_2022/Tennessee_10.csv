@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,SEC,1,Georgia,0,0,13,-14,2.6998191137,0.0028577511439192,-0.9942844977121617,1970,-185,1957,Tennessee

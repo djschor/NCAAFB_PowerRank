@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,ACC,1,Pittsburgh,1,1,42,18,7.7049513835,0.8229698228642024,0.6459396457284048,1609,-13,1651,North Carolina

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Sun Belt,1,Georgia State,0,0,17,-14,5.6428268447,0.0032381619443375,-0.993523676111325,1456,27,1425,Old Dominion

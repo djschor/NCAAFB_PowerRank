@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,SEC,1,Kentucky,0,1,24,10,4.1636765583,0.8703603097319192,0.7407206194638385,1533,-179,1570,South Carolina

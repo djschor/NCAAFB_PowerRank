@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Pac-12,1,Washington,0,0,21,-3,9.7031450874,0.761083109670718,0.5221662193414361,1628,26,1627,Oregon State

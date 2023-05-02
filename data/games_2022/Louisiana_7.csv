@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Sun Belt,1,Marshall,0,1,23,10,5.5521830466,0.3649306644463731,-0.2701386711072537,1631,92,1644,Louisiana

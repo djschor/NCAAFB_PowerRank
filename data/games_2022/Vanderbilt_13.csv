@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,SEC,1,Tennessee,1,0,0,-56,1.2045247161,0.0020101816382698,-0.9959796367234603,1332,-547,1234,Vanderbilt

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Sun Belt,1,Georgia State,1,1,28,5,8.1502394529,0.8813523651405382,0.7627047302810763,1574,86,1576,Marshall

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Conference USA,0,Houston,0,0,27,-7,6.6976325214,0.0072287145946584,-0.9855425708106832,1204,-323,1211,Rice

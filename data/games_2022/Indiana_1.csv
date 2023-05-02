@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,1,Illinois,1,1,23,3,10.0629165175,0.1033768905622222,-0.7932462188755556,1330,-254,1335,Indiana

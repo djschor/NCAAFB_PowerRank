@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Mid-American,0,Penn State,0,0,14,-19,1.9273756693,0.0654485150121915,-0.8691029699756169,1477,-327,1464,Central Michigan

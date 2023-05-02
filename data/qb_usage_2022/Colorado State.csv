@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4432733,Clay Millen,QB,Colorado State,Mountain West,0.4062,0.6588,0.1146,0.3098,0.424,0.556,0.343,0.538
+2022,4833597,Brayden Fowler-Nicolosi,QB,Colorado State,Mountain West,0.0592,0.1024,0.0093,0.0404,0.052,0.106,0.035,0.092
+2022,4880252,Giles Pooler,QB,Colorado State,Mountain West,0.0508,0.0892,0.0062,0.0404,0.048,0.073,0.049,0.062
+2022,4836471,Jackson Stratton,QB,Colorado State,Mountain West,0.0085,0.0157,0.0,0.0034,0.009,0.02,0.014,0.011

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Mountain West,0,Connecticut,1,1,31,11,4.5637067523,0.989165585707972,0.978331171415944,1566,449,1555,Utah State

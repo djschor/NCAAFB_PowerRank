@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mountain West,0,Weber State,1,0,7,-28,4.1154292735,0.0008559644964197,-0.9982880710071608,1566,,1566,Utah State

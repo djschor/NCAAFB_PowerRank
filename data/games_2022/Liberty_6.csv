@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,FBS Independents,1,UMass,0,1,42,18,2.1006836116,0.8083428805529626,0.6166857611059251,1582,694,1562,Liberty

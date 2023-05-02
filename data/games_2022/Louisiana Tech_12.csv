@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Conference USA,1,Charlotte,0,0,21,-5,7.7244261284,0.0735851482691141,-0.8528297034617719,1122,48,1115,Louisiana Tech

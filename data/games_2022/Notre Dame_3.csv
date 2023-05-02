@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,FBS Independents,0,California,1,1,24,7,6.6104197126,0.9860058545544363,0.9720117091088728,1785,278,1780,Notre Dame

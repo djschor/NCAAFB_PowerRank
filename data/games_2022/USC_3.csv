@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Pac-12,0,Fresno State,1,1,45,28,3.2780480084,0.9922297898368768,0.984459579673754,1618,32,1687,USC

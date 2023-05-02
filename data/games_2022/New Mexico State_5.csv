@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,FBS Independents,0,Florida International,1,0,7,-14,3.8360071997,0.0038913402491266,-0.9922173195017464,1093,203,1040,New Mexico State

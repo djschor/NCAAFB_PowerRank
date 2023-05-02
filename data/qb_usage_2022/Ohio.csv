@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4430431,Kurtis Rourke,QB,Ohio,Mid-American,0.4126,0.7176,0.1132,0.3795,0.412,0.491,0.39,0.475
+2022,4686788,CJ Harris,QB,Ohio,Mid-American,0.1529,0.2338,0.0739,0.1128,0.168,0.217,0.124,0.223
+2022,4610131,Parker Navarro,QB,Ohio,Mid-American,0.0264,0.0394,0.0139,0.0256,0.027,0.023,0.029,0.025

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Pac-12,0,Portland State,1,1,52,46,2.6489899264,0.9989688371379288,0.9979376742758576,1584,,1584,Washington

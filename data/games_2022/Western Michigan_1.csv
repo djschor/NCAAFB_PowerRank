@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Mid-American,0,Michigan State,0,0,13,-22,2.4084936095,0.0197013911373568,-0.9605972177252864,1538,-25,1488,Western Michigan

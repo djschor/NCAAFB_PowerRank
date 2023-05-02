@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Big 12,1,West Virginia,1,1,38,18,2.5785580804,0.998656501036639,0.997313002073278,1742,249,1759,Texas

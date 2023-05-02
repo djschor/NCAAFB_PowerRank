@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,ACC,0,South Carolina,1,0,30,-1,6.5952833141,0.7743923284976679,0.548784656995336,1834,235,1821,Clemson

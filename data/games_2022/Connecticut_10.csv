@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,FBS Independents,1,UMass,1,1,27,17,4.2259778309,0.910021001444817,0.8200420028896341,1111,221,1128,Connecticut

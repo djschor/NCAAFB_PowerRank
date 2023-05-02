@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Sun Belt,0,Baylor,0,0,7,-35,1.6058033347,0.0013858421179786,-0.9972283157640426,1299,-384,1249,Texas State

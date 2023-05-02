@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,SEC,1,Arkansas,0,1,13,3,7.1428060526,0.6703465834000422,0.3406931668000842,1708,46,1710,LSU

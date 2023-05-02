@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,ACC,1,Boston College,1,0,20,-1,4.4383299197,0.9182969831214552,0.8365939662429105,1621,363,1600,NC State

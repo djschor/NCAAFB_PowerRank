@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big Ten,0,Central Michigan,1,1,33,19,1.9273756693,0.9345514849878084,0.8691029699756169,1804,327,1817,Penn State

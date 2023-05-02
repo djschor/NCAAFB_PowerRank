@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big Ten,0,Indiana State,1,1,56,56,2.5776331578,0.9989681005491702,0.9979362010983404,1628,,1628,Purdue

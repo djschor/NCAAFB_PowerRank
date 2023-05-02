@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,SEC,1,Ole Miss,0,0,19,-3,6.0430722827,0.6228568223416464,0.2457136446832928,1713,-32,1712,Kentucky

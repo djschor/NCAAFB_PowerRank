@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Big Ten,1,Iowa,0,1,24,7,4.707944915,0.985735373864761,0.971470747729522,1499,-243,1532,Nebraska

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Mountain West,1,Colorado State,1,1,28,12,5.3237510692,0.3573689201032294,-0.2852621597935412,1536,330,1534,San José State

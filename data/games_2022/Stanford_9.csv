@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Pac-12,1,UCLA,0,0,13,-25,2.1175140017,0.0019525337893619,-0.996094932421276,1362,-338,1335,Stanford

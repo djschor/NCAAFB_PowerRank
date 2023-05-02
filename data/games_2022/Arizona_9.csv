@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Pac-12,1,USC,1,0,37,-8,4.6881149667,0.0148861680210983,-0.9702276639578032,1316,-426,1332,Arizona

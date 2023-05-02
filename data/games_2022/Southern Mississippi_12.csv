@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Sun Belt,1,South Alabama,1,0,20,-7,6.9084701981,0.0654881423772325,-0.8690237152455351,1276,-246,1281,Southern Mississippi

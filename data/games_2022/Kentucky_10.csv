@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,SEC,1,Missouri,0,1,21,4,6.7918592099,0.8216098138851837,0.6432196277703676,1612,129,1610,Kentucky

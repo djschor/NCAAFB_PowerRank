@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Big 12,0,NC State,0,0,14,-13,3.1428230837,0.0767925120669295,-0.8464149758661409,1538,-90,1520,Texas Tech

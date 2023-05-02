@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Sun Belt,1,James Madison,1,1,45,7,7.975377247,0.231452191309049,-0.5370956173819019,1396,-132,1413,Georgia Southern

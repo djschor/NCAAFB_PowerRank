@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,American Athletic,1,Cincinnati,1,0,21,-10,4.0593364723,0.0019669921475,-0.996066015705,1502,-299,1506,Tulsa

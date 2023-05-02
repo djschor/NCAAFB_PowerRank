@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big Ten,0,Georgia Southern,1,0,42,-3,8.936899543,0.5761352518048249,0.1522705036096499,1616,234,1596,Nebraska

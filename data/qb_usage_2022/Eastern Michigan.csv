@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4241193,Taylor Powell,QB,Eastern Michigan,Mid-American,0.3787,0.743,0.0642,0.3304,0.405,0.467,0.272,0.533
+2022,4597247,Austin Smith,QB,Eastern Michigan,Mid-American,0.1751,0.243,0.1185,0.1399,0.17,0.257,0.134,0.258
+2022,4917305,Cam'Ron McCoy,QB,Eastern Michigan,Mid-American,0.0039,0.0,0.0074,0.006,0.004,0.0,0.004,0.0

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Pac-12,1,USC,0,0,25,-17,2.6501059334,0.018842926807736,-0.962314146384528,1527,-159,1505,Arizona State

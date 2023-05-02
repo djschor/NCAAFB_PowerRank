@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big 12,0,Murray State,1,1,63,53,1.0947733324,0.9989649130358308,0.9979298260716616,1536,,1536,Texas Tech

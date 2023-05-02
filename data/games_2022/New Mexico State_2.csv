@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,FBS Independents,0,UTEP,0,0,13,-7,5.4468553774,0.5039462039853808,0.0078924079707616,1140,-146,1138,New Mexico State

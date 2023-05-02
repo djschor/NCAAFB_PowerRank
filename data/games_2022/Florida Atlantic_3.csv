@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Conference USA,0,UCF,1,0,14,-26,5.1809095627,0.0017285752911014,-0.9965428494177972,1485,-67,1423,Florida Atlantic

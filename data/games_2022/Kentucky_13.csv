@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,SEC,0,Louisville,1,1,26,13,4.2981587697,0.950663132761084,0.901326265522168,1608,-133,1645,Kentucky

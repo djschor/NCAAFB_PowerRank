@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,American Athletic,0,Rice,1,1,34,7,6.6976325214,0.9927712854053417,0.9855425708106832,1527,323,1520,Houston

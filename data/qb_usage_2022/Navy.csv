@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4686164,Tai Lavatai,QB,Navy,American Athletic,0.2592,0.7143,0.1637,0.2193,0.229,0.325,0.213,0.352
+2022,4686167,Xavier Arline,QB,Navy,American Athletic,0.1296,0.1176,0.1331,0.1301,0.128,0.13,0.112,0.146
+2022,4568526,Maasai Maynor,QB,Navy,American Athletic,0.0353,0.1261,0.0162,0.0223,0.044,0.039,0.03,0.055

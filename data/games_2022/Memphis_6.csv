@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,American Athletic,1,Houston,1,0,32,-1,5.519080527,0.4153906361135005,-0.169218727772999,1506,-8,1505,Memphis

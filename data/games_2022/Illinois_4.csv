@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big Ten,0,Chattanooga,1,1,31,31,1.6401428257,0.9986999107207792,0.9973998214415586,1622,,1622,Illinois

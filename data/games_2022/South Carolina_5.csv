@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,SEC,0,South Carolina State,1,1,50,40,1.5508599301,0.9969449022144264,0.993889804428853,1546,,1546,South Carolina

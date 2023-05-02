@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Pac-12,1,California,1,1,28,19,5.1716079008,0.9780220001355744,0.9560440002711488,1641,105,1674,Washington State

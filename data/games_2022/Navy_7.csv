@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,American Athletic,1,SMU,0,0,34,-6,3.8549406462,0.6537107804961002,0.3074215609922005,1471,-103,1469,Navy

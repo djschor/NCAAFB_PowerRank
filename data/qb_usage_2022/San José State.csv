@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4373934,Chevan Cordeiro,QB,San José State,Mountain West,0.6593,0.8966,0.3007,0.5909,0.661,0.824,0.622,0.786
+2022,4570242,Nick Nash,QB,San José State,Mountain West,0.0144,0.0172,0.0101,0.0114,0.02,0.014,0.01,0.021
+2022,4694149,Walker Eget,QB,San José State,Mountain West,0.0026,0.0022,0.0034,0.0028,0.0,0.0,0.0,0.004

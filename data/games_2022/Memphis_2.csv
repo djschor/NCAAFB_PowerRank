@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,1,Navy,0,1,37,24,4.1212088916,0.7384295940206733,0.4768591880413466,1427,24,1488,Memphis

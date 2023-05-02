@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,American Athletic,1,Tulane,0,0,24,-35,2.6009842163,0.0028150994154109,-0.9943698011691784,1610,50,1505,SMU

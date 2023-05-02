@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Big Ten,1,Nebraska,1,1,34,31,1.4288442917,0.9984954183433392,0.9969908366866784,2058,547,2080,Michigan

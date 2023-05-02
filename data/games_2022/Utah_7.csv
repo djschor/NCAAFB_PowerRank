@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Pac-12,1,USC,1,1,43,1,7.8809989401,0.6045316418103547,0.2090632836207093,1856,117,1853,Utah

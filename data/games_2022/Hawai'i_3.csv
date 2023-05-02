@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mountain West,0,Duquesne,1,1,24,10,5.7966287991,0.9681546321600932,0.9363092643201866,1110,,1110,Hawai'i

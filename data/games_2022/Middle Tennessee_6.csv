@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Conference USA,1,UAB,0,0,14,-27,2.0954340126,0.0010712366791184,-0.9978575266417632,1384,-158,1332,Middle Tennessee

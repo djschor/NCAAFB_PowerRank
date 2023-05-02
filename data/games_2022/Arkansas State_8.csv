@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Sun Belt,1,Louisiana,0,0,18,-20,3.5169054527,0.003216253011876,-0.993567493976248,1239,-405,1231,Arkansas State

@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4259553,Stetson Bennett,QB,Georgia,SEC,0.4888,0.9235,0.0843,0.4237,0.497,0.646,0.42,0.671
+2022,4430841,Carson Beck,QB,Georgia,SEC,0.0388,0.0704,0.0094,0.0361,0.039,0.044,0.046,0.032
+2022,4432782,Brock Vandagriff,QB,Georgia,SEC,0.0029,0.004,0.0019,0.0,0.003,0.011,0.0,0.012

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Conference USA,1,Charlotte,1,0,23,-33,2.6900829476,0.0053819942570329,-0.989236011485934,1225,176,1104,Rice

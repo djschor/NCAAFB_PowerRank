@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big Ten,1,Ohio State,0,0,21,-31,1.5054510397,0.0010375695067177,-0.9979248609865646,1828,-251,1775,Wisconsin

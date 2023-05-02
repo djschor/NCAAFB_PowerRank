@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,ACC,1,Florida State,0,1,31,10,4.578745954,0.7567485321991865,0.5134970643983731,1666,89,1679,Wake Forest

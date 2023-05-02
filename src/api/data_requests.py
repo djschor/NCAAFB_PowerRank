@@ -14,6 +14,21 @@ def make_request(endpoint, params=None):
     response.raise_for_status()
     return response.json()
 
+def read_qb_usage_csv(team_name):
+    file_path = "/Users/djschor/Projects/ncaafb_power_rank/data/qb_usage_2022"
+    file_name = f"{team_name}.csv"
+    full_path = f"{file_path}/{file_name}"
+    
+    try:
+        qb_usage_df = pd.read_csv(full_path)
+        return qb_usage_df
+    except FileNotFoundError as e:
+        print(f"File not found: {e}")
+        return None
+    except Exception as e:
+        print(f"Error reading CSV: {e}")
+        return None
+    
 
 # GAMES
 # _________________________________________________________________
@@ -76,7 +91,7 @@ def get_player_game_stats(year, week=None, seasonType=None, team=None):
         pd.DataFrame: A DataFrame containing player game stats.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = dr.make_request('games/players', params=params)[0]
+    data = make_request('games/players', params=params)[0]
     data = [x for x in data['teams'] if x['school'] == team][0]['categories']
 
     def process_player_stats_category(data): 
@@ -181,7 +196,6 @@ def get_team_season_stats(year, team, seasonType=None, week=None):
     params = {k: v for k, v in locals().items() if v is not None}
     data = make_request(f'stats/season', params)
     return pd.DataFrame(data)
-get_team_season_stats(team=team, year=year)
 
 # PLAYS
 # _________________________________________________________________
@@ -196,9 +210,22 @@ def get_plays(year, seasonType: int = None, team: str = None, week: int = None):
     Returns:
         pd.DataFrame: A DataFrame containing play by play data.
     """
+    if week is None:
+        raise ValueError("Error: No week specified")
+
     params = {k: v for k, v in locals().items() if v is not None}
     data = make_request('plays', params=params)
-    return pd.DataFrame(data)
+
+    if not data:
+        raise ValueError(f"Error: No data found for year {year}, team {team}, and week {week}")
+
+    df = pd.DataFrame(data)
+
+    # assign week column to df from input param
+    df['week'] = week
+    df['team'] = team
+    df['year'] = year
+    return df
 
 
 def get_play_stats(year, week=None, team=None):
@@ -275,6 +302,25 @@ def get_team_rosters(team, year):
     data = make_request('roster', params=params)
     return pd.DataFrame(data)
 
+
+def read_team_roster_csv(team, year=2022):
+    if year != 2022:
+        print("Only 2022 rosters are available.")
+        return None
+    base_folder = "/Users/djschor/Projects/ncaafb_power_rank/data/rosters_2022"
+    file_name = f"{team}.csv"
+    full_path = os.path.join(base_folder, file_name)
+    
+    try:
+        roster_df = pd.read_csv(full_path)
+        return roster_df
+    except FileNotFoundError as e:
+        print(f"File not found: {e}")
+        return None
+    except Exception as e:
+        print(f"Error reading CSV: {e}")
+        return None
+read_team_roster_csv('Michigan')
 
 def get_team_talent(team, season):
     """
@@ -509,4 +555,280 @@ def get_recruit_position_ratings(startYear=None, endYear=None, team=None, confer
     """
     params = {k: v for k, v in locals().items() if v is not None}
     data = make_request('recruiting/groups', params=params)
+    return pd.DataFrame(data)
+
+# RATINGS 
+# _________________________________________________________________
+
+def get_sp_ratings(year=None, team=None):
+    """
+    Fetches historical SP+ ratings for a given year and week.
+
+    Args:
+        year (int, optional): The year of the season.
+        week (int, optional): The week of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing historical SP+ ratings.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ratings/sp', params=params)
+    df = pd.DataFrame(data)
+    offense_df = pd.json_normalize(df['offense']).add_prefix('offense_')
+    defense_df = pd.json_normalize(df['defense']).add_prefix('defense_')
+    special_teams_df = pd.json_normalize(df['specialTeams']).add_prefix('specialTeams_')
+    threshold = int(0.95 * len(df))
+    flattened_df = pd.concat([df.drop(['offense', 'defense', 'specialTeams'], axis=1), offense_df, defense_df, special_teams_df], axis=1).dropna(thresh=threshold, axis=1)
+    return flattened_df
+
+
+def get_srs_ratings(year=None, week=None):
+    """
+    Fetches historical SRS ratings for a given year and week.
+
+    Args:
+        year (int, optional): The year of the season.
+        week (int, optional): The week of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing historical SRS ratings.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ratings/srs', params=params)
+    return pd.DataFrame(data)
+
+
+def get_sp_conference_ratings(year=None, conference=None):
+    """
+    Fetches historical SP+ ratings by conference for a given year and conference.
+
+    Args:
+        year (int, optional): The year of the season.
+        conference (str, optional): The conference to retrieve SP+ ratings for.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing historical SP+ ratings by conference.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ratings/sp/conferences', params=params)
+    return pd.DataFrame(data)
+
+
+def get_elo_ratings(year=None, week=None):
+    """
+    Fetches historical Elo ratings for a given year and week.
+
+    Args:
+        year (int, optional): The year of the season.
+        week (int, optional): The week of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing historical Elo ratings.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ratings/elo', params=params)
+    return pd.DataFrame(data)
+
+# METRICS 
+def get_predicted_points(down=None, distance=None):
+    """
+    Fetches predicted points (i.e. expected points or EP) for a given down and distance.
+
+    Args:
+        year (int, optional): The year of the season.
+        week (int, optional): The week of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing predicted points data.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ppa/predicted', params=params)
+    return pd.DataFrame(data)
+
+def get_ppa_teams(year=None, team=None, conference=None):
+    """
+    Fetches predicted points added (PPA/EPA) data by team for a given year.
+
+    Args:
+        year (int, optional): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing PPA/EPA data by team.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ppa/teams', params=params)
+    return pd.DataFrame(data)
+
+
+def get_ppa_games(year=None, week=None, team=None, conference=None):
+    """
+    Fetches team predicted points added (PPA/EPA) by game for a given year.
+
+    Args:
+        year (int, optional): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing team PPA/EPA data by game.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ppa/games', params=params)
+    return pd.DataFrame(data)
+
+
+def get_ppa_player_games(year=None, week=None, team=None, conference=None, position=None, playerId=None):
+    """
+    Fetches player predicted points added (PPA/EPA) broken down by game for a given year.
+
+    Args:
+        year (int, optional): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing player PPA/EPA data broken down by game.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ppa/players/games', params=params)
+    return pd.DataFrame(data)
+
+
+def get_ppa_player_season(year=None, week=None, team=None, conference=None, position=None, playerId=None):
+    """
+    Fetches player predicted points added (PPA/EPA) broken down by season for a given year.
+
+    Args:
+        year (int, optional): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing player PPA/EPA data broken down by season.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('ppa/players/season', params=params)
+    return pd.DataFrame(data)
+
+
+def get_win_probability(gameId):
+    """
+    Fetches win probability chart data for a given year.
+
+    Args:
+        year (int, optional): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing win probability chart data.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('metrics/wp', params=params)
+    return pd.DataFrame(data)
+
+
+def get_pregame_win_probability(year=None, week=None, team=None, seasonType=None):
+    """
+    Fetches pregame win probability data for a given year.
+
+    Args:
+        year (int, optional): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing pregame win probability data.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('metrics/wp/pregame', params=params)
+    return pd.DataFrame(data)
+
+# STATS
+#_________________________________________________________________________
+
+def get_team_season_stats(year=None, team=None, conference=None):
+    """
+    Fetches team statistics by season.
+
+    Args:
+        year (int): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing team statistics by season.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request(f'stats/season/', params=params)
+    return pd.DataFrame(data)
+
+
+def get_advanced_season_stats(year=None, team=None, conference=None):
+    """
+    Fetches advanced team metrics by season.
+
+    Args:
+        year (int): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing advanced team metrics by season.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request(f'stats/season/advanced/', params=params)
+    return pd.DataFrame(data)
+
+
+def get_advanced_game_stats(year, week, team=None, opponent=None):
+    """
+    Fetches advanced team metrics by game.
+
+    Args:
+        year (int): The year of the season.
+        week (int): The week of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing advanced team metrics by game.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request(f'stats/game/advanced/', params=params)
+    return pd.DataFrame(data)
+
+
+def get_team_stat_categories():
+    """
+    Fetches team stat categories.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing team stat categories.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request('stats/categories')
+    return pd.DataFrame(data)
+
+
+# DRAFT
+#_________________________________________________________________________
+def get_nfl_teams():
+    """
+    Fetches a list of NFL teams.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing a list of NFL teams.
+    """
+    data = make_request('draft/teams')
+    return pd.DataFrame(data)
+
+
+def get_nfl_positions():
+    """
+    Fetches a list of NFL positions.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing a list of NFL positions.
+    """
+    data = make_request('draft/positions')
+    return pd.DataFrame(data)
+
+
+def get_nfl_draft_picks(year=None, nflTeam=None, college=None, position=None, conference=None):
+    """
+    Fetches a list of NFL Draft picks for a specific year.
+
+    Args:
+        year (int): The year of the NFL Draft.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing a list of NFL Draft picks.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request(f'draft/picks', params=params)
     return pd.DataFrame(data)

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Mid-American,1,Central Michigan,0,0,27,-4,7.9180455056,0.2799375919324762,-0.4401248161350475,1421,65,1416,Buffalo

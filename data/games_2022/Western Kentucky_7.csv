@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Conference USA,1,Middle Tennessee,0,1,35,18,4.8142370859,0.998749200315407,0.9974984006308142,1784,452,1784,Western Kentucky

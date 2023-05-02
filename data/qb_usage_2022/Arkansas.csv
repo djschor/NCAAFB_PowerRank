@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4567149,KJ Jefferson,QB,Arkansas,SEC,0.4672,0.8356,0.231,0.4163,0.405,0.672,0.416,0.586
+2022,4429133,Malik Hornsby,QB,Arkansas,SEC,0.0614,0.0836,0.0476,0.0512,0.043,0.106,0.049,0.086
+2022,4361573,Cade Fortin,QB,Arkansas,SEC,0.036,0.0809,0.0071,0.0302,0.03,0.058,0.021,0.057

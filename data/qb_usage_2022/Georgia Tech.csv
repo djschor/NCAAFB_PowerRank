@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4429066,Jeff Sims,QB,Georgia Tech,ACC,0.3362,0.4893,0.1749,0.3217,0.29,0.446,0.294,0.371
+2022,4568336,Zach Gibson,QB,Georgia Tech,ACC,0.1508,0.2673,0.0261,0.142,0.149,0.164,0.144,0.163
+2022,4746127,Zach Pyron,QB,Georgia Tech,ACC,0.0828,0.1265,0.0366,0.0841,0.08,0.079,0.081,0.081
+2022,4426430,Taisun Phommachanh,QB,Georgia Tech,ACC,0.0235,0.0119,0.0366,0.0232,0.031,0.017,0.044,0.016

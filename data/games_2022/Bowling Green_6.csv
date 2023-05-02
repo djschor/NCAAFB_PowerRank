@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Mid-American,1,Buffalo,1,0,7,-31,2.0584308584,0.0006886330816771,-0.9986227338366456,1148,-254,1092,Bowling Green

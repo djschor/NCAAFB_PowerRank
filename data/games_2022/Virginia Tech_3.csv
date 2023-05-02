@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,ACC,0,Wofford,1,1,27,20,1.3989862264,0.9849756194595504,0.9699512389191008,1446,,1446,Virginia Tech

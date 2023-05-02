@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,American Athletic,1,East Carolina,0,1,23,3,6.7809990124,0.6775630319004899,0.3551260638009798,1342,-208,1360,Navy

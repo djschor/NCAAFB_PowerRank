@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Sun Belt,0,Charlotte,1,0,41,-1,8.2514895054,0.9865316655047068,0.9730633310094136,1462,311,1444,Georgia State

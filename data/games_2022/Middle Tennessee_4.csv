@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Conference USA,0,Miami,0,1,45,14,6.3520864566,0.9960560011953872,0.9921120023907744,1354,-236,1411,Middle Tennessee

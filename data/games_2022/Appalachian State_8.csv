@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Sun Belt,1,Georgia State,1,1,42,25,5.9873525318,0.980507626515642,0.961015253031284,1567,84,1621,Appalachian State

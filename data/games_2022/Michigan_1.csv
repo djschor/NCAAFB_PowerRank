@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,0,Colorado State,1,1,51,44,1.1633229021,0.9983945856885186,0.9967891713770372,1848,449,1918,Michigan

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,American Athletic,0,Kansas,1,0,30,-18,3.6726329748,0.1886992673702306,-0.6226014652595387,1615,361,1527,Houston

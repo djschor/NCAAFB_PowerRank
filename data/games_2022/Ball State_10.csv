@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Mid-American,1,Kent State,0,1,27,7,7.1116146151,0.8440538515543208,0.6881077031086416,1290,10,1302,Ball State

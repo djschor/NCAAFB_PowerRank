@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Mountain West,1,New Mexico,1,1,17,17,4.3764518314,0.996630521041208,0.993261042082416,1231,179,1252,Colorado State

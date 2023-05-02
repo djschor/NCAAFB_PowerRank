@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,ACC,0,Vanderbilt,0,1,45,20,3.2065768034,0.841399138413581,0.6827982768271621,1640,209,1668,Wake Forest

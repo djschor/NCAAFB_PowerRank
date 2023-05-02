@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Sun Belt,0,Memphis,0,0,32,-12,6.6251425632,0.0721219666590716,-0.8557560666818569,1249,-239,1245,Arkansas State

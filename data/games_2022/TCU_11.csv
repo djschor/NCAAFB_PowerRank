@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Big 12,1,Texas,0,1,17,7,6.2609402313,0.9875048704358168,0.9750097408716336,1677,-216,1708,TCU

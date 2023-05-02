@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Conference USA,0,Boise State,1,1,27,17,9.1512878063,0.9972267748550908,0.9944535497101816,1245,-373,1322,UTEP

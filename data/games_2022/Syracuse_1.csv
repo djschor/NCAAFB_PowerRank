@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,ACC,1,Louisville,1,1,31,24,5.0081396399,0.7885467733468751,0.5770935466937501,1405,-163,1484,Syracuse

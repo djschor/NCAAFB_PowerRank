@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,SEC,1,Tennessee,1,1,27,14,2.6998191137,0.9971422488560808,0.9942844977121617,2155,185,2168,Georgia

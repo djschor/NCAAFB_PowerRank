@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,ACC,0,Notre Dame,0,0,14,-21,4.1278473904,0.0011762109436049,-0.99764757811279,1826,31,1773,Clemson

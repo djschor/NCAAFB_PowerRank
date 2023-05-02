@@ -1,0 +1,2 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4570057,Cole Snyder,QB,Buffalo,Mid-American,0.4852,0.8757,0.1486,0.4157,0.482,0.627,0.314,0.715

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Big 12,0,Arkansas-Pine Bluff,1,1,63,56,1.004911453,0.9989678107236288,0.9979356214472576,1809,,1809,Oklahoma State

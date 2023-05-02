@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,0,Old Dominion,1,1,39,18,7.0297903997,0.9930107418578296,0.9860214837156592,1522,131,1550,East Carolina

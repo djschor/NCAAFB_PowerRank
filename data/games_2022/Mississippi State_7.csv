@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,SEC,1,Kentucky,0,0,17,-10,6.4300183058,0.0100805472096441,-0.9798389055807118,1722,47,1701,Mississippi State

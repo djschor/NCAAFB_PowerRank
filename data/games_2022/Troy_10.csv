@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Sun Belt,1,Louisiana,0,1,23,6,7.3005577996,0.8083967755838108,0.6167935511676217,1456,-126,1477,Troy

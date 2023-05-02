@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,SEC,1,Ole Miss,1,0,28,-3,7.0542677045,0.1853871523325797,-0.6292256953348405,1657,-35,1655,Texas A&M

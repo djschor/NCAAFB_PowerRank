@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Mountain West,0,Portland State,1,1,21,4,5.4525229031,0.0090261241690734,-0.9819477516618532,1338,,1338,San José State

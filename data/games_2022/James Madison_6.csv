@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Sun Belt,1,Arkansas State,0,1,42,22,3.111529359,0.9993521623399324,0.9987043246798648,1496,225,1528,James Madison

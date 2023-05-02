@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Mid-American,0,Mississippi State,0,0,14,-31,1.1788264836,0.0257326478831917,-0.9485347042336166,1194,-384,1155,Bowling Green

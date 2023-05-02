@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,ACC,0,Georgia,0,0,14,-23,1.8592304366,0.0218439150010413,-0.9563121699979176,1245,-914,1272,Georgia Tech

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,SEC,1,Florida,1,1,38,5,6.5181355997,0.440906432185696,-0.1181871356286081,1835,271,1830,Tennessee

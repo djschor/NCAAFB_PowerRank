@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Sun Belt,1,Georgia State,0,1,31,3,6.3550948341,0.1143815021679838,-0.7712369956640324,1101,-420,1134,Louisiana Monroe

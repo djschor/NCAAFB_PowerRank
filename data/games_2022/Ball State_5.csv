@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Mid-American,1,Northern Illinois,1,1,44,6,5.6338887661,0.0732641699442609,-0.8534716601114781,1282,-85,1294,Ball State

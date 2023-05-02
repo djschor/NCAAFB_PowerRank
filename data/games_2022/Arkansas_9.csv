@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,SEC,1,Auburn,0,1,41,14,4.4290561811,0.9480464674402244,0.8960929348804488,1647,127,1667,Arkansas

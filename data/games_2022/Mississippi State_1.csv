@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,SEC,0,Memphis,1,1,49,26,1.6818709266,0.9989330858663736,0.9978661717327472,1520,30,1583,Mississippi State

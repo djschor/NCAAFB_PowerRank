@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Sun Belt,1,Louisiana,1,1,21,4,6.1614440157,0.9324025915924832,0.8648051831849665,1092,-579,1115,Louisiana Monroe

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Conference USA,1,Charlotte,1,1,24,10,7.7839833789,0.7249157962046194,0.4498315924092389,1298,222,1300,Middle Tennessee

@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4431114,Ben Gulbranson,QB,Oregon State,Pac-12,0.2748,0.6135,0.0599,0.2621,0.253,0.342,0.168,0.388
+2022,4360824,Chance Nolan,QB,Oregon State,Pac-12,0.1434,0.3282,0.0259,0.1247,0.134,0.204,0.069,0.242
+2022,4240796,Tristan Gebbia,QB,Oregon State,Pac-12,0.0143,0.0368,0.0,0.0051,0.015,0.033,0.013,0.031

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Mountain West,1,Nevada,1,1,27,5,8.7669670583,0.5691329875783309,0.1382659751566617,1271,31,1275,UNLV

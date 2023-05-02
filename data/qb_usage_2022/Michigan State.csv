@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4430590,Payton Thorne,QB,Michigan State,Big Ten,0.5688,0.9475,0.1192,0.4779,0.59,0.738,0.485,0.745
+2022,4690158,Noah Kim,QB,Michigan State,Big Ten,0.0273,0.0453,0.0058,0.0206,0.028,0.04,0.03,0.033
+2022,4795295,Katin Houser,QB,Michigan State,Big Ten,0.0039,0.0048,0.0029,0.0029,0.004,0.007,0.0,0.008

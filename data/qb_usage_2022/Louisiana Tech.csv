@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4686137,Parker McNeil,QB,Louisiana Tech,Conference USA,0.2773,0.4922,0.0243,0.2626,0.277,0.305,0.206,0.348
+2022,4833635,Landy Lyddy,QB,Louisiana Tech,Conference USA,0.1657,0.2794,0.0324,0.1425,0.166,0.201,0.153,0.201
+2022,4379400,Matthew Downing,QB,Louisiana Tech,Conference USA,0.0948,0.1486,0.0324,0.0838,0.089,0.132,0.072,0.125
+2022,5092781,Jack Turner,QB,Louisiana Tech,Conference USA,0.0408,0.0665,0.0108,0.0391,0.041,0.029,0.038,0.044

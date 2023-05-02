@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Big Ten,1,Nebraska,0,0,21,-14,8.0410791836,0.006182309914825,-0.98763538017035,1336,-187,1323,Indiana

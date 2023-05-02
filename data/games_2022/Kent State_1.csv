@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Mid-American,0,Washington,0,0,20,-25,1.6372223915,0.0035781820219465,-0.9928436359561068,1340,-196,1299,Kent State

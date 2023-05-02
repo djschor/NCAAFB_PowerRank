@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Big 12,1,West Virginia,1,0,19,-5,8.5066528176,0.0498610597708689,-0.9002778804582622,1562,175,1541,Oklahoma State

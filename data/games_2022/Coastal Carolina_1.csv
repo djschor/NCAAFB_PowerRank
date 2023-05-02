@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Sun Belt,0,Army,1,1,38,10,6.8475451163,0.5602139453285767,0.1204278906571534,1647,103,1657,Coastal Carolina

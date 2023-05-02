@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big Ten,0,Virginia,1,1,24,21,3.5179019525,0.9970149731701778,0.9940299463403558,1579,53,1623,Illinois

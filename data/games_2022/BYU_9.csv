@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,FBS Independents,0,East Carolina,1,0,24,-3,6.8839901091,0.3099073026281685,-0.3801853947436629,1512,-73,1512,BYU

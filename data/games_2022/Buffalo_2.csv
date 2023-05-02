@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mid-American,0,Holy Cross,1,0,31,-6,10.8690069913,0.3365801530842871,-0.3268396938314257,1342,,1342,Buffalo

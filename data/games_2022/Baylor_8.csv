@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Big 12,1,Kansas,1,1,35,12,2.8368480764,0.962504151435417,0.925008302870834,1728,364,1724,Baylor

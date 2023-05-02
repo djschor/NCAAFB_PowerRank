@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,5084180,Diego Pavia,QB,New Mexico State,FBS Independents,0.3561,0.5993,0.1914,0.2748,0.372,0.48,0.321,0.477
+2022,4914368,Gavin Frakes,QB,New Mexico State,FBS Independents,0.1817,0.3546,0.063,0.1325,0.188,0.267,0.16,0.251
+2022,4427125,Weston Eget,QB,New Mexico State,FBS Independents,0.0029,0.0071,0.0,0.0,0.0,0.013,0.006,0.004

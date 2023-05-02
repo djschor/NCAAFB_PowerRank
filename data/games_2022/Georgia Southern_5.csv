@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Sun Belt,1,Coastal Carolina,0,0,30,-4,8.5452407899,0.2162821187035588,-0.5674357625928823,1398,-278,1403,Georgia Southern

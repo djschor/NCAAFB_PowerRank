@@ -1,0 +1,6 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4260394,Aidan O'Connell,QB,Purdue,Big Ten,0.4885,0.8393,0.0439,0.407,0.521,0.643,0.374,0.705
+2022,4242974,Austin Burton,QB,Purdue,Big Ten,0.0732,0.1065,0.0317,0.0512,0.084,0.108,0.069,0.107
+2022,4430829,Michael Alaimo,QB,Purdue,Big Ten,0.0262,0.0355,0.0146,0.0209,0.023,0.038,0.031,0.028
+2022,4384690,Jack Albers,QB,Purdue,Big Ten,0.0073,0.0112,0.0024,0.0023,0.006,0.011,0.004,0.018
+2022,4685691,Brady Allen,QB,Purdue,Big Ten,0.0021,0.0037,0.0,0.0023,0.0,0.005,0.004,0.0

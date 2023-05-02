@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,SEC,1,Arkansas,1,1,29,2,9.381254315,0.9723577044215886,0.9447154088431774,1467,-229,1470,Missouri

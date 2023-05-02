@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Mountain West,1,San José State,1,1,35,4,8.2247869664,0.9710966746452376,0.9421933492904756,1405,-84,1411,Utah State

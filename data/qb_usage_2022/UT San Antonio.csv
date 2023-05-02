@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4245186,Frank Harris,QB,UT San Antonio,Conference USA,0.5629,0.9255,0.2013,0.5012,0.566,0.704,0.522,0.692
+2022,4683012,Eddie Lee Marburger,QB,UT San Antonio,Conference USA,0.0277,0.0447,0.0108,0.0139,0.029,0.065,0.02,0.058
+2022,4431318,Cam Peters,QB,UT San Antonio,Conference USA,0.0043,0.0021,0.0065,0.0023,0.003,0.006,0.008,0.004

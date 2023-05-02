@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Big Ten,1,Illinois,0,0,14,-12,6.2611314213,0.0014896300283038,-0.9970207399433924,1784,77,1755,Minnesota

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,ACC,1,Louisville,1,1,31,15,4.3402267898,0.9799680939415144,0.9599361878830288,1773,24,1802,Clemson

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Conference USA,1,Florida Atlantic,0,0,13,-30,6.6262524505,0.0011584457822981,-0.9976831084354038,1272.0,-155.0,1211.0,Charlotte

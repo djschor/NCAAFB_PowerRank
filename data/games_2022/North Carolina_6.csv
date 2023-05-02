@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,ACC,1,Miami,0,1,27,3,6.6830237058,0.7458980119322288,0.4917960238644576,1622,89,1621,North Carolina

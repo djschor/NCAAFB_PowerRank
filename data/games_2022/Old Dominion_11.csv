@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Sun Belt,1,James Madison,1,0,3,-34,2.1383164383,0.0003546368301103,-0.9992907263397792,1408,-38,1315,Old Dominion

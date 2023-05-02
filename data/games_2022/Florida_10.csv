@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,SEC,1,Texas A&M,0,1,41,17,6.0867410295,0.9763171010110456,0.9526342020220911,1552,-103,1604,Florida

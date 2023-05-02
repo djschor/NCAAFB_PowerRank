@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+14,Mid-American,1,Ohio,0,1,17,10,5.5028031694,0.975025383075202,0.9500507661504044,1478,-17,1494,Toledo

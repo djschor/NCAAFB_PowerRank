@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Sun Belt,1,South Alabama,0,0,20,-7,7.5636357366,0.0600550589387622,-0.8798898821224754,1312,-205,1314,Old Dominion

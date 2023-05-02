@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,SEC,1,Georgia,1,0,22,-4,6.6931253744,0.0045430554541157,-0.9909138890917688,1411,-679,1443,Missouri

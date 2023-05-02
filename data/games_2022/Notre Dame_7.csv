@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,FBS Independents,0,Stanford,1,0,14,-2,8.1370550694,0.2406606172333143,-0.5186787655333713,1797,472,1765,Notre Dame

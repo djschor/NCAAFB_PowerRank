@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Pac-12,1,Washington,0,0,39,-10,4.3466616255,0.1640590147133585,-0.671881970573283,1314,-286,1316,Arizona

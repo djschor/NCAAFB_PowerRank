@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mountain West,0,Michigan,0,0,10,-46,2.1016581778,0.0010286035374773,-0.9979427929250454,1188,-730,1145,Hawai'i

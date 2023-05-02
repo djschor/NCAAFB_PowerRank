@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big Ten,1,Michigan,0,0,27,-7,4.5634130288,0.017438920994972,-0.965122158010056,1608,-416,1620,Maryland

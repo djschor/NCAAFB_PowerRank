@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4916436,E.J. Warner,QB,Temple,American Athletic,0.544,0.897,0.0341,0.4182,0.601,0.69,0.529,0.698
+2022,4427914,D'Wan Mathis,QB,Temple,American Athletic,0.0636,0.0892,0.0273,0.0629,0.052,0.076,0.052,0.071
+2022,4361959,Quincy Patterson II,QB,Temple,American Athletic,0.0514,0.0252,0.0922,0.0409,0.06,0.044,0.076,0.047

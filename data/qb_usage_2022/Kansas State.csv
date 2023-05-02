@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4361182,Adrian Martinez,QB,Kansas State,Big 12,0.3118,0.479,0.1859,0.2652,0.302,0.408,0.335,0.356
+2022,4429955,Will Howard,QB,Kansas State,Big 12,0.245,0.5037,0.0502,0.1971,0.225,0.366,0.204,0.356
+2022,4431535,Jake Rubley,QB,Kansas State,Big 12,0.0117,0.0148,0.0093,0.0073,0.013,0.016,0.027,0.004

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Sun Belt,1,James Madison,0,0,7,-40,2.8123919312,0.0015316127046253,-0.9969367745907496,1563,24,1443,Coastal Carolina

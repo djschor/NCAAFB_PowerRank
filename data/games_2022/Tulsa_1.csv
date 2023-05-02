@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,American Athletic,0,Wyoming,0,0,37,-3,8.4642633492,0.1182621623646669,-0.7634756752706662,1502,93,1500,Tulsa

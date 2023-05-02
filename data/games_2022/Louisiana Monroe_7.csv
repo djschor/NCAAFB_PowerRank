@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Sun Belt,1,South Alabama,0,0,34,-7,3.6460573278,0.0771211846527261,-0.8457576306945479,1117,-350,1126,Louisiana Monroe

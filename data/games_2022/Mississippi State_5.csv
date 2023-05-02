@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,SEC,1,Texas A&M,1,1,42,18,4.7811050384,0.9953847586040468,0.9907695172080936,1617,-91,1667,Mississippi State

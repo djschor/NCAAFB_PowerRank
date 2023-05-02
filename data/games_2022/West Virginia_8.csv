@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Big 12,1,Texas Tech,0,0,10,-38,3.2082650393,0.027308730294308,-0.945382539411384,1481,-41,1377,West Virginia

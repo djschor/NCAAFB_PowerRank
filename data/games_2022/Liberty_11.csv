@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,FBS Independents,1,Connecticut,0,0,33,-3,6.7841911838,0.6400434163404625,0.280086832680925,1640,512,1631,Liberty

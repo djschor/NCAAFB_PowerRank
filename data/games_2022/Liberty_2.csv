@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,FBS Independents,0,UAB,1,1,21,7,7.0299011177,0.8642820700729226,0.7285641401458451,1586,40,1593,Liberty

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,SEC,1,Ole Miss,0,0,34,-14,3.5488206248,0.1422652240771675,-0.715469551845665,1529,-237,1520,Auburn

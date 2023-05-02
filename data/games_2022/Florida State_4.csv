@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,ACC,1,Boston College,1,1,44,30,1.2808562171,0.9636829503261458,0.9273659006522916,1511,113,1577,Florida State

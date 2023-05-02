@@ -1,0 +1,6 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4431325,Taylen Green,QB,Boise State,Mountain West,0.368,0.6912,0.1339,0.3081,0.376,0.497,0.305,0.502
+2022,4426499,Hank Bachmeier,QB,Boise State,Mountain West,0.1115,0.2441,0.0151,0.1036,0.077,0.19,0.09,0.138
+2022,4870513,Maddux Madsen,QB,Boise State,Mountain West,0.0062,0.0118,0.0022,0.0084,0.004,0.006,0.0,0.008
+2022,4683311,Sam Vidlak,QB,Boise State,Mountain West,0.0037,0.0059,0.0022,0.0,0.004,0.012,0.005,0.008
+2022,4880195,Colt Fulton,QB,Boise State,Mountain West,0.0012,0.0,0.0022,0.0,0.0,0.0,0.0,0.004

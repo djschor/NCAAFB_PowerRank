@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,0,Illinois State,1,1,38,38,1.2976481443,0.9989653617473,0.9979307234946002,1742,,1742,Wisconsin

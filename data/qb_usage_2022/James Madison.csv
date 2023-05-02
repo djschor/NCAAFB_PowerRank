@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4243276,Todd Centeio,QB,James Madison,Sun Belt,0.4594,0.855,0.1748,0.4164,0.43,0.62,0.373,0.583
+2022,4877811,Billy Atkins,QB,James Madison,Sun Belt,0.0662,0.1361,0.0155,0.0466,0.076,0.087,0.049,0.107
+2022,4911929,Alonza Barnett,QB,James Madison,Sun Belt,0.0012,0.0,0.0022,0.0027,0.0,0.0,0.0,0.0

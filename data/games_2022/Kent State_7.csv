@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Mid-American,1,Toledo,0,0,31,-21,5.7751939848,0.0037368635252768,-0.9925262729494464,1314,-240,1288,Kent State

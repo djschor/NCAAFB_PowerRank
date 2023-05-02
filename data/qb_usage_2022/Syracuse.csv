@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4426966,Garrett Shrader,QB,Syracuse,ACC,0.5637,0.8378,0.2806,0.4943,0.603,0.654,0.536,0.671
+2022,4432691,Carlos Del Rio-Wilson,QB,Syracuse,ACC,0.1016,0.1543,0.0472,0.0862,0.091,0.162,0.03,0.171
+2022,4608858,Dan Villari,QB,Syracuse,ACC,0.0014,0.0027,0.0,0.0,0.0,0.007,0.0,0.004

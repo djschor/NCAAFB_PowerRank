@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,SEC,1,Georgia,0,0,20,-22,1.8408830727,0.0018364324265277,-0.9963271351469446,1553,-601,1552,Florida

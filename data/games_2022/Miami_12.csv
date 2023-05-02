@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,ACC,1,Clemson,0,0,10,-30,1.4666954886,0.0014674943980265,-0.9970650112039472,1383,-419,1351,Miami

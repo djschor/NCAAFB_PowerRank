@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Mountain West,0,Navy,1,1,13,3,4.2463648915,0.9923751066158094,0.9847502132316188,1743,383,1739,Air Force

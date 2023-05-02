@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Big Ten,1,Penn State,0,0,7,-10,2.3293545873,0.0041114264906926,-0.9917771470186147,1355,-462,1368,Northwestern

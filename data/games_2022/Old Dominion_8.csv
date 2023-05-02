@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Sun Belt,1,Georgia Southern,1,0,23,-5,5.9220412301,0.0055655006203332,-0.9888689987593337,1469,56,1456,Old Dominion

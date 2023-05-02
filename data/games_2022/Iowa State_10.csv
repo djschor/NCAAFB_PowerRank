@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Big 12,1,West Virginia,1,1,31,17,7.1509944948,0.9527642635157086,0.9055285270314172,1725,345,1731,Iowa State

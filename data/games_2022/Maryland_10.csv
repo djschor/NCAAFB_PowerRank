@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Big Ten,1,Wisconsin,0,0,10,-13,3.4858619335,0.0733538197269527,-0.8532923605460946,1625,-125,1610,Maryland

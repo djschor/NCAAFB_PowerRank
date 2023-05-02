@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,American Athletic,0,Georgia Tech,1,1,27,17,3.4010003742,0.8655017572211433,0.7310035144422866,1614,375,1618,UCF

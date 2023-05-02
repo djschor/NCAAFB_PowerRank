@@ -1,0 +1,6 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4693814,Haaziq Daniels,QB,Air Force,Mountain West,0.263,0.9663,0.1718,0.2143,0.226,0.405,0.177,0.456
+2022,4708478,Jensen Jones,QB,Air Force,Mountain West,0.0181,0.0,0.0206,0.0186,0.011,0.032,0.008,0.031
+2022,4580590,Zachary Larrier,QB,Air Force,Mountain West,0.0091,0.0337,0.0059,0.0031,0.015,0.013,0.008,0.021
+2022,4693813,Ben Brittain,QB,Air Force,Mountain West,0.0065,0.0225,0.0044,0.0031,0.008,0.006,0.015,0.0
+2022,5085134,Cannon Turner,QB,Air Force,Mountain West,0.0026,0.0,0.0029,0.0,0.008,0.0,0.0,0.01

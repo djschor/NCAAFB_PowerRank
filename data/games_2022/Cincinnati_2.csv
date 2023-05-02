@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,0,Kennesaw State,1,1,63,53,2.8433161173,0.9988836064827832,0.9977672129655664,1787,,1787,Cincinnati

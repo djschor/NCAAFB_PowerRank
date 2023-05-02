@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,American Athletic,1,Tulane,0,0,9,-15,6.1432750565,0.0614707600403688,-0.8770584799192624,1539,42,1504,East Carolina

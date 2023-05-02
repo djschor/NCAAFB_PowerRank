@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Mountain West,1,Colorado State,0,1,17,4,6.3616275407,0.9921717052617428,0.9843434105234858,1444,179,1439,Utah State

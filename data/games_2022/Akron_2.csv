@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mid-American,0,Michigan State,0,0,0,-52,6.5775701518,0.0077104843805374,-0.984579031238925,1096,-517,1009,Akron

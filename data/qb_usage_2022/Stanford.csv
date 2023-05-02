@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4685201,Tanner McKee,QB,Stanford,Pac-12,0.6084,0.9621,0.1111,0.5512,0.641,0.679,0.539,0.723
+2022,4838679,Ashton Daniels,QB,Stanford,Pac-12,0.0357,0.0147,0.0661,0.0249,0.056,0.025,0.078,0.027
+2022,4592531,Ari Patu,QB,Stanford,Pac-12,0.0148,0.0189,0.009,0.0139,0.019,0.006,0.019,0.012

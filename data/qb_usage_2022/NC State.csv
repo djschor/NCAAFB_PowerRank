@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4361653,Devin Leary,QB,NC State,ACC,0.2389,0.4127,0.0365,0.201,0.255,0.309,0.233,0.295
+2022,4685488,MJ Morris,QB,NC State,ACC,0.1438,0.1869,0.0949,0.1603,0.116,0.162,0.078,0.163
+2022,4431091,Ben Finley,QB,NC State,ACC,0.1405,0.2546,0.0073,0.112,0.136,0.204,0.107,0.199
+2022,4246097,Jack Chambers,QB,NC State,ACC,0.1139,0.1355,0.09,0.084,0.116,0.168,0.136,0.138

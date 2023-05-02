@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Sun Belt,1,Louisiana,0,1,20,3,5.9674950836,0.9555575783592312,0.9111151567184624,1450,-198,1467,South Alabama

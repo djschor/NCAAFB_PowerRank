@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big 12,0,Central Michigan,1,1,58,14,2.0476622516,0.6006092661124897,0.2012185322249793,1775,239,1783,Oklahoma State

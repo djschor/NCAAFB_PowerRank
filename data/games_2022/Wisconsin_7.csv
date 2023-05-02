@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Big Ten,1,Michigan State,0,0,28,-6,5.8484010094,0.6210087120080148,0.2420174240160295,1752,187,1735,Wisconsin

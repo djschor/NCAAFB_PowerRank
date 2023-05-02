@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,American Athletic,0,Louisville,0,0,3,-38,1.7829049865,0.0013081392484444,-0.9973837215031112,1250,-249,1174,South Florida

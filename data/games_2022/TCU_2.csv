@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big 12,0,Tarleton State,1,1,59,42,3.11130717,0.9989061071988418,0.9978122143976836,1505,,1505,TCU

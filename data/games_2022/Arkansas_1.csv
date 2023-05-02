@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,SEC,0,Cincinnati,1,1,31,7,5.6882250154,0.8333397474629864,0.6666794949259729,1626,-175,1646,Arkansas

@@ -1,0 +1,3 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4262162,Nate Cox,QB,Nevada,Mountain West,0.319,0.5139,0.1151,0.2563,0.317,0.42,0.295,0.394
+2022,4429070,Shane Illingworth,QB,Nevada,Mountain West,0.207,0.3646,0.0411,0.1677,0.214,0.276,0.151,0.281

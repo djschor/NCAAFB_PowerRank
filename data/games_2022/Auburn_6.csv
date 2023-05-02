@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,SEC,1,Georgia,0,0,10,-32,1.8868166666,0.2018823639924819,-0.5962352720150361,1558,-500,1529,Auburn

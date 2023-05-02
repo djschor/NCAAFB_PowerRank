@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Mid-American,0,UMass,1,1,55,45,2.7800511803,0.9959789376344426,0.9919578752688852,1534,537,1597,Toledo

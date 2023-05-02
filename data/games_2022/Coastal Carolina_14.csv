@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+14,Sun Belt,1,Troy,0,0,26,-19,2.0451976774,0.0104911990612176,-0.9790176018775648,1443,-86,1408,Coastal Carolina

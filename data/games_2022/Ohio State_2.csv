@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big Ten,0,Arkansas State,1,1,45,33,3.6769873049,0.9989693384552342,0.9979386769104684,1944,682,1957,Ohio State

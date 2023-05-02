@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Pac-12,1,Colorado,1,1,54,47,1.1947952611,0.9982322577932254,0.996464515586451,1616,544,1684,Washington

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,FBS Independents,0,Wyoming,1,1,38,14,6.8078691804,0.9902361043292756,0.9804722086585512,1619,203,1630,BYU

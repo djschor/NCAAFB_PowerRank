@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,ACC,0,VMI,1,1,44,34,1.2759959221,0.997004742446346,0.994009484892692,1640,,1640,Wake Forest

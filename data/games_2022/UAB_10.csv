@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Conference USA,1,UT San Antonio,1,0,38,-6,5.7429936165,0.8229255045025348,0.6458510090050695,1563,52,1548,UAB

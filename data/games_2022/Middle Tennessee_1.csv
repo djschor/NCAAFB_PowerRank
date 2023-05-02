@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Conference USA,0,James Madison,0,0,7,-37,3.6476199239,0.0010631858831473,-0.9978736282337052,1445,145,1318,Middle Tennessee

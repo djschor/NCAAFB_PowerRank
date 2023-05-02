@@ -1,0 +1,116 @@
+type QB {
+  player: String
+  week: Int
+  year: Int
+  pk: String
+  team: String
+  aqs: Float
+  aqs_competitive_rank: Int
+  aqs_relative_rank: Int
+  adpsr: Float
+  adpsr_competitive_rank: Int
+  adpsr_relative_rank: Int
+  crae: Float
+  crae_competitive_rank: Int
+  crae_relative_rank: Int
+  dmi: Float
+  dmi_competitive_rank: Int
+  dmi_relative_rank: Int
+  defense_score: Float
+  defense_score_competitive_rank: Int
+  defense_score_relative_rank: Int
+  ppi: Float
+  ppi_competitive_rank: Int
+  ppi_relative_rank: Int
+  qpi: Float
+  qpi_competitive_rank: Int
+  qpi_relative_rank: Int
+  reer: Float
+  reer_competitive_rank: Int
+  reer_relative_rank: Int
+  sei: Float
+  sei_competitive_rank: Int
+  sei_relative_rank: Int
+  competitive_score_week_rank: Int
+  qb_competitive_score: Float
+  qb_relative_score: Float
+  qb_total_rank: Int
+  qb_total_score: Float
+  total_score_week_rank: Int
+}
+
+type QBResult {
+  success: Boolean!
+  errors: [String]
+  qbWeeklyData: [QB]
+}
+
+type QBOverallRanking {
+  player: String!
+  year: Int!
+  competitive_score_rank: Float
+  total_score_rank: Float
+  avg_qb_competitive_score: Float
+  avg_qb_total_score: Float
+}
+
+type QBOverallRankingResult {
+  success: Boolean!
+  errors: [String]
+  QBOverallRanking: [QBOverallRanking]
+}
+
+type QBWeeklyRanking {
+  pk: String!
+  player: String!
+  team: String
+  year: Int
+  week: Int
+  adpsr: Float
+  adpsr_competitive_rank: Float
+  adpsr_relative_rank: Float
+  aqs: Float
+  aqs_competitive_rank: Float
+  aqs_relative_rank: Float
+  competitive_score_week_rank: Float
+  crae: Float
+  crae_competitive_rank: Float
+  crae_relative_rank: Float
+  defense_score: Float
+  defense_score_competitive_rank: Float
+  defense_score_relative_rank: Float
+  dmi: Float
+  dmi_competitive_rank: Float
+  dmi_relative_rank: Float
+  ppi: Float
+  ppi_competitive_rank: Float
+  ppi_relative_rank: Float
+  qb_competitive_score: Float
+  qb_relative_score: Float
+  qb_total_rank: Float
+  qb_total_score: Float
+  qpi: Float
+  qpi_competitive_rank: Float
+  qpi_relative_rank: Float
+  reer: Float
+  reer_competitive_rank: Float
+  reer_relative_rank: Float
+  sei: Float
+  sei_competitive_rank: Float
+  sei_relative_rank: Float
+  trend_score: Float
+  volume_score: Float
+  technical_score: Float
+}
+
+type QBWeeklyRankingResult {
+  success: Boolean!
+  errors: [String]
+  qbWeeklyRankings: [QBWeeklyRanking]
+}
+
+type Query {
+  qbdata(player_name: String!, year: Int): QBResult
+  qboverall(top_x: Int, field: String): QBOverallRankingResult
+  qbweek(week: Int!, top_x: Int): QBWeeklyRankingResult
+}

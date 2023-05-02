@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,ACC,0,Connecticut,0,1,48,34,2.4224749319,0.9957829336551576,0.9915658673103152,1484,356,1537,Syracuse

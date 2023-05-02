@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Conference USA,1,UAB,1,0,27,-10,2.3973754569,0.0036477089246289,-0.9927045821507422,1115,-410,1127,Louisiana Tech

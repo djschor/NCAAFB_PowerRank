@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big 12,0,Kent State,1,1,33,30,5.8002904353,0.9981406881979183,0.9962813763958368,1786,487,1811,Oklahoma

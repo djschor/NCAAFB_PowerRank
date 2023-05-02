@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Mountain West,1,San José State,1,0,16,-17,3.7966014857,0.037112405082783,-0.925775189834434,1405,-25,1367,Wyoming

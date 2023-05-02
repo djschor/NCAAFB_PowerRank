@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,ACC,1,Wake Forest,0,1,36,2,8.7908489998,0.2801972311289142,-0.4396055377421715,1640,-27,1644,North Carolina

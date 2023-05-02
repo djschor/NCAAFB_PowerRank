@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Big Ten,1,Penn State,0,0,16,-19,3.0904850465,0.00207771221644,-0.99584457556712,1555,-419,1550,Michigan State

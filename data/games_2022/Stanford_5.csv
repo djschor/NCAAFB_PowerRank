@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Pac-12,1,Oregon,0,0,27,-18,2.1428719446,0.0298196928459194,-0.9403606143081612,1333,-234,1315,Stanford

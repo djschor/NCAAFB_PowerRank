@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big 12,0,Tennessee Tech,1,1,56,46,1.1732355063,0.998939607219552,0.997879214439104,1194,,1194,Kansas

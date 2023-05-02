@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Conference USA,1,Rice,1,0,41,-1,8.372909061,0.0142346565611989,-0.9715306868776022,1179,-47,1180,Louisiana Tech

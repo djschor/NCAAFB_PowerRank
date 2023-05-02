@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,FBS Independents,1,Notre Dame,0,0,20,-8,4.6928947825,0.0333908019782426,-0.9332183960435148,1636,-154,1629,BYU

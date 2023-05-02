@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4360480,Spencer Petras,QB,Iowa,Big Ten,0.4386,0.8094,0.0691,0.3636,0.395,0.638,0.315,0.603
+2022,4428186,Alex Padilla,QB,Iowa,Big Ten,0.0653,0.1201,0.0106,0.0376,0.063,0.09,0.055,0.103
+2022,4683291,Joey Labas,QB,Iowa,Big Ten,0.0366,0.0653,0.008,0.0408,0.028,0.034,0.039,0.029

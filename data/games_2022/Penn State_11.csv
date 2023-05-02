@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Big Ten,1,Maryland,1,1,30,30,2.0599225449,0.9989066633676952,0.9978133267353904,1871,261,1920,Penn State

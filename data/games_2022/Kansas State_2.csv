@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big 12,0,Missouri,1,1,40,28,3.5648655556,0.9524685231081972,0.9049370462163944,1616,151,1671,Kansas State

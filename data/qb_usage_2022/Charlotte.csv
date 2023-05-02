@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4259269,Chris Reynolds,QB,Charlotte,Conference USA,0.4733,0.8055,0.0728,0.4554,0.482,0.507,0.462,0.5
+2022,4698184,Xavier Williams,QB,Charlotte,Conference USA,0.0684,0.0848,0.0506,0.0655,0.058,0.079,0.054,0.086
+2022,4372517,James Foster,QB,Charlotte,Conference USA,0.041,0.0599,0.019,0.0357,0.054,0.043,0.027,0.063

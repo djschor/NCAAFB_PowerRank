@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Mountain West,1,Wyoming,1,1,30,30,1.767286152,0.9960302829904544,0.9920605659809087,1620,205,1676,Fresno State

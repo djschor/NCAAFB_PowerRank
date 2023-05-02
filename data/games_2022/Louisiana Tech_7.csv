@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Conference USA,1,North Texas,0,0,27,-20,5.8557397433,0.0020012581779853,-0.9959974836440292,1214,-111,1179,Louisiana Tech

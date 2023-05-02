@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,ACC,1,NC State,1,1,25,15,6.031536858,0.9204554638037252,0.8409109276074505,1720,120,1741,Louisville

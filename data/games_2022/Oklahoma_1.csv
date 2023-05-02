@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big 12,0,UTEP,1,1,45,32,1.193939711,0.9989338092980732,0.9978676185961464,1749,426,1786,Oklahoma

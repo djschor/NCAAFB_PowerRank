@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Mid-American,1,Western Michigan,0,0,14,-6,8.7297787595,0.2212360402558661,-0.5575279194882677,1496,213,1478,Toledo

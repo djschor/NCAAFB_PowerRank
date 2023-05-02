@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+14,FBS Independents,0,Valparaiso,1,1,65,62,2.4151946784,0.9989698480505598,0.9979396961011197,,,,New Mexico State

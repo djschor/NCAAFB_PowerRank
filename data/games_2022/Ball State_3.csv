@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mid-American,0,Murray State,1,1,31,31,1.7779787206,0.904673368156261,0.809346736312522,1286,,1286,Ball State

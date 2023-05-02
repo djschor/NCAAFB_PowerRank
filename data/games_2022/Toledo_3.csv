@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mid-American,0,Ohio State,0,0,21,-56,1.188010074,0.0010515325438664,-0.9978969349122672,1597,-360,1475,Toledo

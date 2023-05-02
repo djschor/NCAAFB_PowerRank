@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Conference USA,1,Florida International,1,0,15,-19,2.5964873405,0.0011791957706207,-0.9976416084587586,1121,211,1049,Charlotte

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Mountain West,1,New Mexico,1,1,31,11,6.4501980015,0.9576704195978788,0.9153408391957576,1420,220,1424,UNLV

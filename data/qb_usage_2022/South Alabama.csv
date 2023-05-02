@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4362260,Carter Bradley,QB,South Alabama,Sun Belt,0.5132,0.9481,0.1023,0.4541,0.506,0.641,0.425,0.658
+2022,4373851,Desmond Trotter,QB,South Alabama,Sun Belt,0.0274,0.0476,0.0084,0.0217,0.032,0.031,0.012,0.047
+2022,4427954,Tanner McGee,QB,South Alabama,Sun Belt,0.0011,0.0022,0.0,0.0,0.0,0.0,0.004,0.0

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,SEC,0,Southern,1,1,65,48,1.712287616,0.9989714382608176,0.997942876521635,,,,LSU

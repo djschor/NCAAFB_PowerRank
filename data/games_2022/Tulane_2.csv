@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,0,Alcorn State,1,1,52,52,2.6675173865,0.998960911983702,0.997921823967404,1501,,1501,Tulane

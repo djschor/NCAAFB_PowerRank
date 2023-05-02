@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,ACC,1,North Carolina,0,1,21,4,4.8565193228,0.9835722060695864,0.9671444121391728,1206,-438,1245,Georgia Tech

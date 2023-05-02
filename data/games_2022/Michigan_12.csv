@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Big Ten,1,Illinois,1,1,19,2,6.3690848647,0.6343843945763402,0.2687687891526804,2080,378,2075,Michigan

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Mountain West,1,Air Force,1,0,7,-35,1.2519981367,0.3533267201152032,-0.2933465597695935,1339,-370,1285,UNLV

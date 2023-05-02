@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Mid-American,1,Kent State,0,1,31,7,6.0486682875,0.8343221756772754,0.6686443513545509,1299,-56,1317,Eastern Michigan

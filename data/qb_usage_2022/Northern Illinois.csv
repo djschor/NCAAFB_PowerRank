@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4618083,Ethan Hampton,QB,Northern Illinois,Mid-American,0.1567,0.3636,0.0154,0.1261,0.172,0.189,0.137,0.216
+2022,4917421,Nevan Cremascoli,QB,Northern Illinois,Mid-American,0.1312,0.3041,0.0132,0.0661,0.153,0.195,0.108,0.232
+2022,4683282,Justin Lynch,QB,Northern Illinois,Mid-American,0.1096,0.0815,0.1319,0.0781,0.111,0.154,0.146,0.12
+2022,4241965,Rocky Lombardi,QB,Northern Illinois,Mid-American,0.1006,0.2382,0.0066,0.0811,0.103,0.142,0.057,0.164

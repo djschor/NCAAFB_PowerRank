@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Pac-12,1,Oregon,0,1,37,3,7.5707529632,0.1114746226637651,-0.7770507546724698,1603,-139,1616,Washington

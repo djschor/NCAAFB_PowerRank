@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Big 12,1,TCU,0,0,40,-3,7.7707934827,0.3402666840896476,-0.3194666318207047,1821,174,1818,Oklahoma State

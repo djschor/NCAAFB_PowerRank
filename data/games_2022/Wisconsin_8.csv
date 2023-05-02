@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Big Ten,1,Purdue,1,1,35,11,2.7767958409,0.992455291126892,0.984910582253784,1735,67,1750,Wisconsin

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Conference USA,1,Florida Atlantic,1,1,24,3,7.6543397312,0.4693315661324012,-0.0613368677351977,1290,-81,1292,UTEP

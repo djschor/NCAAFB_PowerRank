@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,0,Texas Tech,0,0,30,-3,10.9707925617,0.2319473403232751,-0.5361053193534497,1617,81,1615,Houston

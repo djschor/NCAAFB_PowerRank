@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Pac-12,1,California,0,0,20,-7,9.4124446883,0.7618648260667785,0.5237296521335572,1233,-164,1232,Stanford

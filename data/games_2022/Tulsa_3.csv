@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,American Athletic,0,Jacksonville State,1,1,54,37,2.1282395491,0.9974997701000364,0.9949995402000732,1498,,1498,Tulsa

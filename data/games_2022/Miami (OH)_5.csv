@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Mid-American,1,Buffalo,0,0,20,-4,9.6235607868,0.0747476502806464,-0.8505046994387071,1457,60,1452,Miami (OH)

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,American Athletic,1,Tulsa,0,1,27,14,3.3401471033,0.9988780323411978,0.9977560646823956,1547,165,1563,Tulane

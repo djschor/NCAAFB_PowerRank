@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Big Ten,1,Minnesota,0,0,0,-31,2.6450874863,0.0038380854640187,-0.9923238290719626,1347,-336,1303,Rutgers

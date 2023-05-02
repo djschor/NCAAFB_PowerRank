@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mid-American,0,Coastal Carolina,0,0,26,-12,7.4325211566,0.0010689552114225,-0.9978620895771548,1344,-313,1345,Buffalo

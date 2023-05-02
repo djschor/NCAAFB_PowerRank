@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Sun Belt,1,Texas State,1,1,17,3,6.214228332,0.86824993331753,0.73649986663506,1450,187,1449,Troy

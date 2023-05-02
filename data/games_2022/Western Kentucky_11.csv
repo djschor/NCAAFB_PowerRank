@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Conference USA,1,Rice,1,1,45,35,2.4227908794,0.9652824949466926,0.9305649898933852,1742,618,1767,Western Kentucky

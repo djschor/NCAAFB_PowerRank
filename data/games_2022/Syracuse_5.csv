@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,ACC,0,Wagner,1,1,59,59,1.008114628,0.998971366301283,0.9979427326025662,1539,,1539,Syracuse

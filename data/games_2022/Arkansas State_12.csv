@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Sun Belt,1,Texas State,0,0,13,-3,7.5626273149,0.2170770802818857,-0.5658458394362286,1177,-56,1177,Arkansas State

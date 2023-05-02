@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,ACC,1,Louisville,1,0,17,-17,5.6701439359,0.0169239797026445,-0.9661520405947112,1406,-162,1382,Virginia

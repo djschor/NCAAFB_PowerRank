@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,SEC,1,Alabama,0,0,3,-52,1.0912262701,0.001071666731337,-0.997856666537326,1422,-699,1358,Vanderbilt

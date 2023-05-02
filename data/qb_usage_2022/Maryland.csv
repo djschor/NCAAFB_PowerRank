@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4567097,Taulia Tagovailoa,QB,Maryland,Big Ten,0.5159,0.8584,0.1375,0.4706,0.511,0.611,0.402,0.659
+2022,4592532,Billy Edwards,QB,Maryland,Big Ten,0.085,0.1124,0.055,0.0616,0.088,0.111,0.092,0.11
+2022,4428091,Eric Najarian,QB,Maryland,Big Ten,0.0142,0.0247,0.0025,0.0196,0.011,0.011,0.004,0.015

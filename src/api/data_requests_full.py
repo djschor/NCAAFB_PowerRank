@@ -2,8 +2,9 @@ from src.utils import utils
 import os
 import requests
 import pandas as pd
-API_KEY = utils.read_api_key()
+from functools import reduce
 
+API_KEY = utils.read_api_key()
 BASE_URL = "https://api.collegefootballdata.com"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
@@ -13,36 +14,6 @@ def make_request(endpoint, params=None):
     response.raise_for_status()
     return response.json()
 
-
-def get_conferences():
-    """
-    Fetches a list of college football conferences.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing conferences information.
-    """
-    data = make_request('conferences')
-    return pd.DataFrame(data)
-
-def get_venues():
-    """
-    Fetches a list of college football venues.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing venue information.
-    """
-    data = make_request('venues')
-    return pd.DataFrame(data)
-
-def get_coaches():
-    """
-    Fetches a list of college football coaches with their records and history.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing coaching records and history.
-    """
-    data = make_request('coaches')
-    return pd.DataFrame(data)
 
 # GAMES
 # _________________________________________________________________
@@ -77,6 +48,7 @@ def get_team_records(year=None, team=None, conference=None):
     data = make_request('records', params=params)
     return pd.DataFrame(data)
 
+
 def get_season_calendar(year):
     """
     Fetches the season calendar for college football.
@@ -89,7 +61,6 @@ def get_season_calendar(year):
     """
     data = make_request('calendar', params={'year': year})
     return pd.DataFrame(data)
-
 
 
 def get_player_game_stats(year, week=None, seasonType=None, team=None):
@@ -105,11 +76,28 @@ def get_player_game_stats(year, week=None, seasonType=None, team=None):
         pd.DataFrame: A DataFrame containing player game stats.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('games', params=params)
-    return pd.DataFrame(data)
+    data = make_request('games/players', params=params)[0]
+    data = [x for x in data['teams'] if x['school'] == team][0]['categories']
+
+    def process_player_stats_category(data): 
+        category_name = data['name']
+        dfl = []
+        for cat_subset in data['types']: 
+            subset_name = cat_subset['name']
+            category_rename_str = '{}_{}'.format(category_name, subset_name).lower()
+            df = pd.DataFrame(cat_subset['athletes'])
+            df = df.rename(columns = {'name': 'player_name', 'stat': category_rename_str})
+            dfl.append(df) 
+        dfc = reduce(lambda left, right: pd.merge(left, right, on=['id', 'player_name'], how='outer'), dfl)
+        return dfc
+    cat_dfl = [process_player_stats_category(x) for x in data]
+    df = pd.concat(cat_dfl)
+    return df
+# get_player_game_stats(2022, team='Michigan', week=11)
 
 
-def get_team_game_stats(year, season, team, week=None):
+
+def get_team_game_stats(year, team, seasonType=None, week=None):
     """
     Fetches team game stats.
 
@@ -122,13 +110,49 @@ def get_team_game_stats(year, season, team, week=None):
         pd.DataFrame: A DataFrame containing team game stats.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'{year}/{season}/games/teams/{team}')
-    return pd.DataFrame(data)
+    full_data = make_request('games/teams', params=params)
+    data = [x for x in full_data[0]['teams'] if x['school'] == team][0]
+    opponent_data = [x for x in full_data[0]['teams'] if x['school'] != team][0]
+    opponent_name = opponent_data['school']
+    opponent_conference = opponent_data['conference']
+    opponent_points = opponent_data['points']
+    opponent_homeAway = opponent_data['homeAway']
+    opponent_stats = opponent_data['stats']
+    opponent_data_dict = {item['category']: item['stat'] for item in opponent_stats}
+    opponent_df = pd.DataFrame([opponent_data_dict])
+    opponent_df['name'] = opponent_name
+    opponent_df['conference'] = opponent_conference
+    opponent_df['points'] = opponent_points
+    opponent_df['homeAway'] = opponent_homeAway
+    first_cols =  ['name', 'conference', 'points']
+    opponent_df = opponent_df[first_cols + [x for x in opponent_df.columns if x not in first_cols]]
+    opponent_df.columns = ['opponent_{}'.format(x) for x in opponent_df.columns]
+
+    school = data['school']
+    conference = data['conference']
+    opponent = opponent_name
+    points = data['points']
+    homeAway = data['homeAway']
+    stats = data['stats']
+    data_dict = {item['category']: item['stat'] for item in stats}
+    df = pd.DataFrame([data_dict])
+    df['name'] = school
+    df['opponent'] = opponent
+    df['conference'] = conference
+    df['points'] = points
+    df['homeAway'] = homeAway
+    df['week'] = week
+    first_cols =  ['name', 'opponent', 'conference', 'points', 'homeAway', 'week']
+    df = df[first_cols + [x for x in df.columns if x not in first_cols]]
+    df = pd.concat([df, opponent_df], axis=1)
+    return df
+
+# get_team_game_stats(2019, week=1, team='Michigan')
 
 
 # DRIVES
 # _________________________________________________________________
-def get_drives(year, season):
+def get_drives(year, seasonType=None, week=None, team=None, offense=None, defense=None, conference=None):
     """
     Fetches college football drive data and results.
 
@@ -140,12 +164,27 @@ def get_drives(year, season):
         pd.DataFrame: A DataFrame containing drive data and results.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'{year}/{season}/drives')
+    data = make_request('drives', params=params)
+    return pd.DataFrame(data)
+
+# TEAMS
+def get_team_season_stats(year, team, seasonType=None, week=None):
+    """
+    Fetches team statistics by season.
+
+    Args:
+        year (int): The year of the season.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing team statistics by season.
+    """
+    params = {k: v for k, v in locals().items() if v is not None}
+    data = make_request(f'stats/season', params)
     return pd.DataFrame(data)
 
 # PLAYS
 # _________________________________________________________________
-def get_plays(seasonType: int = None, team: str = None, week: int = None):
+def get_plays(year, seasonType: int = None, team: str = None, week: int = None):
     """
     Fetches college football play by play data for a specific season and team (optional).
 
@@ -157,23 +196,11 @@ def get_plays(seasonType: int = None, team: str = None, week: int = None):
         pd.DataFrame: A DataFrame containing play by play data.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('coaches', params=params)
+    data = make_request('plays', params=params)
     return pd.DataFrame(data)
 
 
-def get_play_types():
-    """
-    Fetches college football play types.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing play types.
-    """
-    params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('plays/types')
-    return pd.DataFrame(data)
-
-
-def get_play_stats(season: int, team: str = None):
+def get_play_stats(year, week=None, team=None):
     """
     Fetches college football play stats by play for a specific season and team (optional).
 
@@ -185,10 +212,7 @@ def get_play_stats(season: int, team: str = None):
         pd.DataFrame: A DataFrame containing play stats by play.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    if team:
-        data = make_request(f'season/{season}/team/{team}/stats/plays')
-    else:
-        data = make_request(f'season/{season}/stats/plays')
+    data = make_request('play/stats', params=params)
     return pd.DataFrame(data)
 
 
@@ -201,8 +225,10 @@ def get_play_stat_types():
         pd.DataFrame: A DataFrame containing types of player play stats.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('plays/stats/types')
+    data = make_request('play/stats/types')
     return pd.DataFrame(data)
+
+
 
 # TEAMS 
 # _________________________________________________________________
@@ -229,11 +255,11 @@ def get_fbs_teams(season):
         pd.DataFrame: A DataFrame containing FBS team information.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'teams/fbs/{season}')
+    data = make_request(f'teams/fbs/')
     return pd.DataFrame(data)
 
 
-def get_team_rosters(team, season):
+def get_team_rosters(team, year):
     """
     Fetches team rosters.
 
@@ -245,7 +271,7 @@ def get_team_rosters(team, season):
         pd.DataFrame: A DataFrame containing team rosters.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'team/{team}/{season}/roster')
+    data = make_request('roster', params=params)
     return pd.DataFrame(data)
 
 
@@ -261,7 +287,7 @@ def get_team_talent(team, season):
         pd.DataFrame: A DataFrame containing team talent composite rankings.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'team/{team}/{season}/talent')
+    data = make_request('talent')
     return pd.DataFrame(data)
 
 
@@ -280,48 +306,11 @@ def get_team_matchup(team1, team2):
     data = make_request(f'teams/matchup?team1={team1}&team2={team2}')
     return pd.DataFrame(data)
 
-# CONFERENCE 
-# _________________________________________________________________
-
-def get_conferences(year=None, season=None):
-    """
-    Fetches conference information for a given year and season.
-
-    Args:
-        year (int, optional): The year to retrieve conference information for.
-        season (str, optional): The season to retrieve conference information for.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing conference information.
-    """
-    params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('conferences', params=params)
-    return pd.DataFrame(data)
- 
- # VENUES
- # _________________________________________________________________
-
-def get_venues(year=None, season=None, team=None):
-    """
-    Fetches arena and venue information for a given year, season, and team.
-
-    Args:
-        year (int, optional): The year to retrieve venue information for.
-        season (str, optional): The season to retrieve venue information for.
-        team (str, optional): The team to retrieve venue information for.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing arena and venue information.
-    """
-    params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('venues', params=params)
-    return pd.DataFrame(data)
-
 
 # COACHES 
 # _________________________________________________________________
 
-def get_coaches(year=None, season=None, team=None):
+def get_coaches(year=None, team=None, firstName=None, lastName=None):
     """
     Fetches coaching records and history for a given year, season, and team.
 
@@ -337,6 +326,7 @@ def get_coaches(year=None, season=None, team=None):
     data = make_request('coaches', params=params)
     return pd.DataFrame(data)
 
+
 # PLAYERS 
 # _________________________________________________________________
 
@@ -351,11 +341,11 @@ def search_player(query):
         pd.DataFrame: A DataFrame containing player information.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('player/search', {'search': query})
+    data = make_request('player/search', {'searchTerm': query})
     return pd.DataFrame(data)
 
 
-def get_player_usage(year):
+def get_player_usage(year, team=None, position=None, playerId=None):
     """
     Fetches player usage metrics broken down by season.
 
@@ -366,8 +356,11 @@ def get_player_usage(year):
         pd.DataFrame: A DataFrame containing player usage metrics.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request('player/usage', {'year': year})
-    return pd.DataFrame(data)
+    data = make_request('player/usage', params=params)
+    df = pd.DataFrame(data)
+    usage_df = df['usage'].apply(lambda x: pd.Series(x)).add_prefix('usage_')
+    result_df = pd.concat([df.drop(columns=['usage']), usage_df], axis=1)
+    return result_df
 
 
 def get_team_returning_production(year, team=None):
@@ -420,10 +413,12 @@ def get_transfer_portal_by_season(year, team=None):
     return pd.DataFrame(data)
 
 
+
+
 # STATS
 #_________________________________________________________________________
 
-def get_team_season_stats(year):
+def get_team_season_stats(year=None, team=None, conference=None):
     """
     Fetches team statistics by season.
 
@@ -434,11 +429,11 @@ def get_team_season_stats(year):
         pd.DataFrame: A DataFrame containing team statistics by season.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'stats/season/{year}')
+    data = make_request(f'stats/season/', params=params)
     return pd.DataFrame(data)
 
 
-def get_advanced_season_stats(year):
+def get_advanced_season_stats(year=None, team=None, conference=None):
     """
     Fetches advanced team metrics by season.
 
@@ -449,11 +444,11 @@ def get_advanced_season_stats(year):
         pd.DataFrame: A DataFrame containing advanced team metrics by season.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'stats/season/advanced/{year}')
+    data = make_request(f'stats/season/advanced/', params=params)
     return pd.DataFrame(data)
 
 
-def get_advanced_game_stats(year, week):
+def get_advanced_game_stats(year, week, team=None, opponent=None):
     """
     Fetches advanced team metrics by game.
 
@@ -465,7 +460,7 @@ def get_advanced_game_stats(year, week):
         pd.DataFrame: A DataFrame containing advanced team metrics by game.
     """
     params = {k: v for k, v in locals().items() if v is not None}
-    data = make_request(f'stats/game/advanced/{year}/{week}')
+    data = make_request(f'stats/game/advanced/', params=params)
     return pd.DataFrame(data)
 
 
@@ -480,42 +475,3 @@ def get_team_stat_categories():
     data = make_request('stats/categories')
     return pd.DataFrame(data)
 
-
-# DRAFT
-#_________________________________________________________________________
-def get_nfl_teams():
-    """
-    Fetches a list of NFL teams.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing a list of NFL teams.
-    """
-    data = make_request('draft/teams')
-    return pd.DataFrame(data)
-
-
-def get_nfl_positions():
-    """
-    Fetches a list of NFL positions.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing a list of NFL positions.
-    """
-    data = make_request('draft/positions')
-    return pd.DataFrame(data)
-
-
-def get_nfl_draft_picks(year):
-    """
-    Fetches a list of NFL Draft picks for a specific year.
-
-    Args:
-        year (int): The year of the NFL Draft.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing a list of NFL Draft picks.
-    """
-    data = make_request(f'draft/{year}/picks')
-    return pd.DataFrame(data)
-
-#_______________________________________________________________________________________________________________________________

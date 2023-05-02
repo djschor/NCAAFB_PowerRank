@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Big 12,1,Texas Tech,0,0,48,-3,13.0223950294,0.5433203849506092,0.0866407699012183,1662,73,1660,Oklahoma

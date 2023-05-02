@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,SEC,0,Northern Illinois,0,1,38,10,4.7222925499,0.7822565881943793,0.5645131763887586,1403,26,1422,Vanderbilt

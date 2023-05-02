@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Sun Belt,1,South Alabama,0,1,10,4,6.1864581105,0.5946351349179102,0.1892702698358205,1449,-9,1456,Troy

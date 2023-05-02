@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Sun Belt,0,The Citadel,1,1,49,49,1.0613867287,0.9989291167855092,0.9978582335710188,1633,,1633,Appalachian State

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Conference USA,1,UTEP,1,1,37,7,7.6086148173,0.9271479776660488,0.8542959553320977,1104,-168,1124,Rice

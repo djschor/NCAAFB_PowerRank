@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,ACC,0,Rutgers,1,0,21,-1,4.8580219149,0.2492548820691546,-0.5014902358616907,1443,78,1438,Boston College

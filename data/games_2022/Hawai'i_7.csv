@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Mountain West,1,Nevada,1,1,31,15,6.2054087071,0.98734034878475,0.9746806975695,1093,-355,1160,Hawai'i

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Big 12,1,Kansas,1,1,43,15,6.5666744859,0.7519142305229035,0.5038284610458071,1551,100,1573,Texas Tech

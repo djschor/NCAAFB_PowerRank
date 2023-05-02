@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,ACC,0,Army,1,1,45,35,1.9910040659,0.9987965498976632,0.9975930997953266,1679,203,1751,Wake Forest

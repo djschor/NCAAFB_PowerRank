@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Big 12,1,Kansas State,1,0,3,-28,2.4864139086,0.0137861728852837,-0.9724276542294324,1785,-46,1714,Baylor

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Conference USA,1,North Texas,1,0,13,-18,4.1152955946,0.0047463353562156,-0.9905073292875688,1360,-66,1323,UTEP

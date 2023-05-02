@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,0,Louisville,1,0,14,-6,6.8694968226,0.0044104235586017,-0.9911791528827966,1569,80,1552,UCF

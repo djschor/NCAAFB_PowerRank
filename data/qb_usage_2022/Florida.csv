@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4429084,Anthony Richardson,QB,Florida,SEC,0.5126,0.8886,0.2062,0.4514,0.491,0.641,0.447,0.624
+2022,4685091,Jack Miller III,QB,Florida,SEC,0.0419,0.069,0.02,0.0243,0.053,0.066,0.032,0.07
+2022,4565187,Jalen Kitna,QB,Florida,SEC,0.018,0.0371,0.0022,0.0081,0.034,0.012,0.048,0.01

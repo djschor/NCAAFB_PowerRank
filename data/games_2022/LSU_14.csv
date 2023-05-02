@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+14,SEC,1,Georgia,0,0,30,-20,2.2826295001,0.0055291534035121,-0.988941693192976,1729,-403,1715,LSU

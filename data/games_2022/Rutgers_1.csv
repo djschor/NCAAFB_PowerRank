@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,0,Boston College,0,1,22,1,4.8580219149,0.7507451179308453,0.5014902358616907,1365,-78,1370,Rutgers

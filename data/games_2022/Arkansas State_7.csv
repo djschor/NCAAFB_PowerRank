@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Sun Belt,1,Southern Mississippi,0,0,19,-1,6.6722025814,0.230711078535204,-0.538577842929592,1239,-13,1239,Arkansas State

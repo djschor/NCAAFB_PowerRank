@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Conference USA,0,South Alabama,0,0,14,-24,4.0116607688,0.070198449511952,-0.859603100976096,1227,-183,1187,Louisiana Tech

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Big 12,1,Baylor,1,0,35,-3,5.5722350179,0.3801387328603055,-0.2397225342793891,1636,-153,1640,Oklahoma

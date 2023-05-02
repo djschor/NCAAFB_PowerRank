@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Pac-12,1,Washington,1,0,33,-18,5.5816190637,0.0011860965095532,-0.9976278069808936,1689,5,1644,Washington State

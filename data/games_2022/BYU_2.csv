@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,FBS Independents,0,Baylor,1,1,26,6,9.0953602799,0.6175196713766509,0.2350393427533018,1685,-5,1692,BYU

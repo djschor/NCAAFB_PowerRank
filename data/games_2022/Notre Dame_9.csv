@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,FBS Independents,0,Syracuse,0,1,41,17,4.2927832038,0.9986727440300698,0.9973454880601396,1773,188,1795,Notre Dame

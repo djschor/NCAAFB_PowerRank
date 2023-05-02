@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Big 12,0,Ohio,1,1,43,33,3.2565225157,0.9983775022317706,0.9967550044635411,1774,466,1809,Iowa State

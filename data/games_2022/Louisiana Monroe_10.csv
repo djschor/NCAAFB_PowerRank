@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Sun Belt,1,Texas State,1,1,31,1,7.5993527036,0.5191469230040918,0.0382938460081836,1096,-156,1101,Louisiana Monroe

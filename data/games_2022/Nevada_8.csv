@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Mountain West,1,San Diego State,1,0,7,-16,4.2216471357,0.0026879780485786,-0.9946240439028426,1381,-4,1343,Nevada

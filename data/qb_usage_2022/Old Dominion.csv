@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4430775,Hayden Wolff,QB,Old Dominion,Sun Belt,0.6355,0.9748,0.1066,0.5545,0.637,0.781,0.567,0.755
+2022,4429413,Brendon Clark,QB,Old Dominion,Sun Belt,0.0112,0.0092,0.0147,0.0165,0.009,0.006,0.007,0.007
+2022,4243535,D.J. Mack Jr.,QB,Old Dominion,Sun Belt,0.0098,0.0069,0.0147,0.0198,0.004,0.0,0.0,0.004

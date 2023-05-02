@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,FBS Independents,0,Buffalo,1,0,7,-27,1.6722544726,0.0543647866223182,-0.8912704267553634,908,-550,896,UMass

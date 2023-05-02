@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Mountain West,1,UNLV,1,1,40,33,2.3699361347,0.9986132122985956,0.997226424597191,1468,44,1553,San José State

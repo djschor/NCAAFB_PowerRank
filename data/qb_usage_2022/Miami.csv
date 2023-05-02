@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4685186,Tyler Van Dyke,QB,Miami,ACC,0.3429,0.6019,0.0411,0.3352,0.342,0.348,0.236,0.426
+2022,4432703,Jake Garcia,QB,Miami,ACC,0.1608,0.2755,0.0274,0.1191,0.179,0.217,0.128,0.249
+2022,4685291,Jacurri Brown,QB,Miami,ACC,0.1247,0.1204,0.1315,0.1136,0.113,0.18,0.138,0.133

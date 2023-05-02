@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,ACC,1,Boston College,0,0,33,-1,6.4149729161,0.0033509986052422,-0.9932980027895156,1575,243,1568,Louisville

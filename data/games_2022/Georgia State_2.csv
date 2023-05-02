@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Sun Belt,0,North Carolina,1,0,28,-7,7.5434631104,0.2443757326295356,-0.5112485347409288,1468,-95,1462,Georgia State

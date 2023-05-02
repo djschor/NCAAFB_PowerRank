@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,ACC,1,North Carolina,1,0,35,-3,8.2306868211,0.2836115602003055,-0.432776879599389,1334,-287,1346,Duke

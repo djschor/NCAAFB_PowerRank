@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,American Athletic,0,Northern Illinois,1,1,38,3,8.5016490967,0.80685951250604,0.6137190250120801,1500,124,1499,Tulsa

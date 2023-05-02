@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big 12,1,Texas Tech,0,0,34,-3,7.6468343445,0.8418163118499252,0.6836326236998505,1746,226,1742,Texas

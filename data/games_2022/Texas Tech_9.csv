@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Big 12,1,Baylor,1,0,17,-28,4.6107085516,0.000921031258669,-0.998157937482662,1626,-98,1561,Texas Tech

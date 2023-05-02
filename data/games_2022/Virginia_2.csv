@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,ACC,0,Illinois,0,0,3,-21,3.5179019525,0.0029850268298221,-0.9940299463403558,1526,-53,1482,Virginia

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big 12,0,Southeast Missouri State,1,1,42,32,1.507519994,0.9978163031544174,0.9956326063088348,1779,,1779,Iowa State

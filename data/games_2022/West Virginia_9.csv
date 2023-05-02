@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Big 12,1,TCU,1,0,31,-10,5.4585677621,0.1702061384729363,-0.6595877230541274,1377,-293,1380,West Virginia

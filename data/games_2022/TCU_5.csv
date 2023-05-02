@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Big 12,1,Oklahoma,1,1,55,31,4.2115135914,0.9988799663742188,0.997759932748438,1526,-325,1656,TCU

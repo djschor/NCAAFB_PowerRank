@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,102597,Will Rogers,QB,Mississippi State,SEC,0.6971,0.9614,0.0709,0.6394,0.752,0.766,0.652,0.821
+2022,4432759,Sawyer Robertson,QB,Mississippi State,SEC,0.013,0.017,0.0037,0.012,0.01,0.023,0.011,0.016
+2022,4685975,Chance Lovertich,QB,Mississippi State,SEC,0.0076,0.0108,0.0,0.0096,0.007,0.006,0.011,0.004

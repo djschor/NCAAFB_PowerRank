@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Conference USA,0,Stephen F. Austin,1,1,52,35,3.949191969,0.9986429291219304,0.9972858582438608,1238,,1238,Louisiana Tech

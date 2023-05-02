@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,FBS Independents,0,Temple,0,0,0,-28,4.4033811329,0.0022336375659949,-0.9955327248680104,934,-110,874,UMass

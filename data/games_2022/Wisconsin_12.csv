@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Big Ten,1,Nebraska,0,1,15,1,6.8154757034,0.8144211475508751,0.6288422951017503,1731,242,1721,Wisconsin

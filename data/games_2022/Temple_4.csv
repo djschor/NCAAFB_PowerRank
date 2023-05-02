@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,American Athletic,0,UMass,1,1,28,28,4.4033811329,0.9977663624340052,0.9955327248680104,1044,110,1104,Temple

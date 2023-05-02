@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,SEC,1,South Carolina,0,0,38,-25,6.903828433,0.0061623138100307,-0.9876753723799384,2018,558,1879,Tennessee

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,0,South Dakota State,1,1,7,4,7.8988660279,0.8001315137015276,0.6002630274030551,1624,,1624,Iowa

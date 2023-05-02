@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,SEC,1,Texas A&M,0,0,21,-2,6.7158801555,0.6990729884327014,0.3981459768654027,1665,-41,1663,Arkansas

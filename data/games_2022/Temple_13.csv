@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,American Athletic,1,East Carolina,1,0,46,-3,6.0762849676,0.1550059005910871,-0.6899881988178258,1130,-329,1144,Temple

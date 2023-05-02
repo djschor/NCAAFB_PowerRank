@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mountain West,0,Iowa,0,0,0,-27,1.6808019463,0.0143542035590114,-0.9712915928819772,1585,-44,1520,Nevada

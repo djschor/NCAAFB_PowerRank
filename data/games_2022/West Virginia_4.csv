@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Big 12,0,Virginia Tech,0,1,33,23,4.207584562,0.9956482704068782,0.9912965408137564,1430,-21,1493,West Virginia

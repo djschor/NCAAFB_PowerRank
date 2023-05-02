@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big 12,1,Kansas,1,0,42,-13,9.1436612467,0.3150880446331969,-0.3698239107336061,1490,296,1430,West Virginia

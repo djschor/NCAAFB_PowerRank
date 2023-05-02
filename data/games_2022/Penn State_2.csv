@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Big Ten,0,Ohio,1,1,46,36,3.2166519831,0.9985686713383792,0.9971373426767584,1674,303,1737,Penn State

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Sun Belt,0,Nicholls,1,1,35,28,5.6420662241,0.99824304349452,0.9964860869890398,1121,,1121,Louisiana Monroe

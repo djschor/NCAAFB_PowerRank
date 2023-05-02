@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,SEC,1,Tennessee,1,0,13,-27,2.8471575872,0.0080536893456858,-0.9838926213086284,1644,-186,1593,LSU

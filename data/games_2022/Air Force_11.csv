@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Mountain West,1,New Mexico,1,1,35,32,1.5554436064,0.9989602762709724,0.9979205525419448,1731,644,1746,Air Force

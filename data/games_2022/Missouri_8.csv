@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,SEC,1,Vanderbilt,1,1,17,3,3.7381307745,0.9752998300092302,0.9505996600184604,1440,169,1439,Missouri

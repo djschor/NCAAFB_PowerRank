@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4373726,Tyhier Tyler,QB,Army,FBS Independents,0.207,0.2124,0.2073,0.1922,0.234,0.21,0.252,0.162
+2022,4577305,Jemel Jones,QB,Army,FBS Independents,0.1384,0.3363,0.1037,0.1205,0.152,0.154,0.13,0.178
+2022,4577303,Cade Ballard,QB,Army,FBS Independents,0.1156,0.3894,0.067,0.0814,0.107,0.185,0.079,0.215
+2022,4879928,Bryson Daily,QB,Army,FBS Independents,0.0175,0.0177,0.0175,0.0228,0.016,0.012,0.008,0.021

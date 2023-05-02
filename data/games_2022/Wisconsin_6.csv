@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Big Ten,1,Northwestern,0,1,42,35,1.6474850341,0.998824419877084,0.9976488397541682,1692,324,1752,Wisconsin

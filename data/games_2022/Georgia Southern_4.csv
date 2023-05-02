@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Sun Belt,0,Ball State,1,1,34,11,8.8960970083,0.6158255220241213,0.2316510440482427,1385,90,1398,Georgia Southern

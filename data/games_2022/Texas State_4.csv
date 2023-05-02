@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Sun Belt,0,Houston Christian,1,1,34,34,1.6140637985,0.9972918553401772,0.9945837106803544,1232,,1232,Texas State

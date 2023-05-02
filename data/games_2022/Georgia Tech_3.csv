@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,ACC,0,Ole Miss,1,0,0,-42,0.9026431185,0.0004811568347806,-0.9990376863304388,1317,-353,1239,Georgia Tech

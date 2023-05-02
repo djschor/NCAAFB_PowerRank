@@ -1,0 +1,5 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4426444,Connor Bazelak,QB,Indiana,Big Ten,0.5292,0.8588,0.0672,0.5395,0.49,0.578,0.383,0.611
+2022,4565355,Dexter Williams II,QB,Indiana,Big Ten,0.0882,0.0882,0.0896,0.0845,0.073,0.12,0.087,0.092
+2022,4361025,Jack Tuttle,QB,Indiana,Big Ten,0.0252,0.0314,0.0168,0.0191,0.028,0.036,0.024,0.033
+2022,4899046,Brendan Sorsby,QB,Indiana,Big Ten,0.0092,0.0157,0.0,0.0054,0.01,0.016,0.015,0.01

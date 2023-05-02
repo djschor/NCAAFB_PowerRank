@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Conference USA,1,Rice,1,1,21,4,6.4871214784,0.3012664921585581,-0.3974670156828837,1496,432,1487,North Texas

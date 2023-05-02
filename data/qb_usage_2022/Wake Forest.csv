@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4361994,Sam Hartman,QB,Wake Forest,ACC,0.5395,0.905,0.1422,0.4842,0.537,0.674,0.407,0.734
+2022,4433829,Mitch Griffis,QB,Wake Forest,ACC,0.0567,0.0872,0.0237,0.0495,0.046,0.089,0.048,0.073
+2022,4567031,Michael Kern,QB,Wake Forest,ACC,0.004,0.0078,0.0,0.0023,0.003,0.011,0.004,0.007

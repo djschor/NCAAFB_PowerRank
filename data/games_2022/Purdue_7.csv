@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Big Ten,1,Nebraska,1,1,43,6,4.6027561081,0.6374841966339028,0.2749683932678056,1668,140,1668,Purdue

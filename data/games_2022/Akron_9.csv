@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Mid-American,1,Miami (OH),1,0,9,-18,3.1423127812,0.0720298081112659,-0.8559403837774681,974,-437,973,Akron

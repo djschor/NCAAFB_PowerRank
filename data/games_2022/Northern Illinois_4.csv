@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Mid-American,0,Kentucky,0,0,23,-8,2.9146701866,0.353830415969379,-0.292339168061242,1358,-364,1367,Northern Illinois

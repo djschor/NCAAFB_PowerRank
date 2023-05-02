@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Big 12,1,Oklahoma,0,1,49,49,1.542930843,0.9990424017772046,0.9980848035544092,1759,38,1898,Texas

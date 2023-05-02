@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big 12,0,Louisiana Monroe,1,1,52,42,1.1051359615,0.9987193798252806,0.9974387596505612,1633,426,1700,Texas

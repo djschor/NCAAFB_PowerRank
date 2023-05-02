@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,FBS Independents,0,Texas A&M,0,0,3,-17,1.8648137285,0.0034875116063061,-0.993024976787388,877,-724,899,UMass

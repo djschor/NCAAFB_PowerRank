@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Sun Belt,0,Tulane,0,1,27,3,4.1528370522,0.180647246898311,-0.638705506203378,1254,-258,1275,Southern Mississippi

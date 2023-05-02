@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,SEC,1,Auburn,1,1,49,22,1.8914709465,0.9957534529959092,0.9915069059918186,2151,555,2151,Alabama

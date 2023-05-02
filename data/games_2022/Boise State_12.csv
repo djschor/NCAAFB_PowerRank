@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,Mountain West,1,Wyoming,0,1,20,3,7.6909787516,0.8080948231191303,0.6161896462382606,1752,352,1737,Boise State

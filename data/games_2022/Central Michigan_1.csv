@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Mid-American,0,Oklahoma State,0,0,44,-14,2.0476622516,0.3993907338875103,-0.2012185322249793,1536,-239,1528,Central Michigan

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,ACC,1,Virginia Tech,0,1,28,1,13.5963728209,0.5055375374810919,0.0110750749621837,1245,-86,1250,Georgia Tech

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,ACC,0,Southern Mississippi,1,1,30,23,4.5346466629,0.9950922479881926,0.9901844959763854,1570,290,1596,Miami

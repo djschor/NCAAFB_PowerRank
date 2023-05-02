@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,ACC,1,Virginia,1,1,38,21,3.0606932376,0.9958218999541674,0.9916437999083348,1261,-220,1336,Duke

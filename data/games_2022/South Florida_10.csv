@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,American Athletic,1,Temple,0,0,28,-26,5.1648063818,0.0136520326838518,-0.9726959346322964,1180,161,1094,South Florida

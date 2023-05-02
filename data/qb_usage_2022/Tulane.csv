@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4685039,Michael Pratt,QB,Tulane,American Athletic,0.4948,0.8845,0.1934,0.4489,0.488,0.58,0.429,0.611
+2022,4708067,Kai Horton,QB,Tulane,American Athletic,0.0321,0.063,0.0082,0.0224,0.025,0.056,0.04,0.039
+2022,4685040,Justin Ibieta,QB,Tulane,American Athletic,0.0218,0.0446,0.0041,0.0249,0.021,0.019,0.022,0.016

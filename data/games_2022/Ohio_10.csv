@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+10,Mid-American,1,Buffalo,1,1,45,21,6.8310741047,0.9986786520201308,0.9973573040402616,1348,-138,1413,Ohio

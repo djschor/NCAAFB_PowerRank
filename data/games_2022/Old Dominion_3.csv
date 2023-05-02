@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Sun Belt,0,Virginia,0,0,14,-2,7.0608366135,0.023231514003092,-0.953536971993816,1363,-119,1364,Old Dominion

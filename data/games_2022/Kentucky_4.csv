@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,SEC,0,Northern Illinois,1,1,31,8,2.9146701866,0.646169584030621,0.292339168061242,1722,364,1713,Kentucky

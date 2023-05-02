@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,American Athletic,1,Tulane,0,0,28,-10,2.2937596321,0.270833214957377,-0.458333570085246,1504,-28,1489,Memphis

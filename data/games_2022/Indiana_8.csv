@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+8,Big Ten,1,Rutgers,0,0,17,-7,7.9406322575,0.0607779903657756,-0.8784440192684488,1349,12,1339,Indiana

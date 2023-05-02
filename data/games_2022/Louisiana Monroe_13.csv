@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Sun Belt,1,Southern Mississippi,1,0,10,-10,5.6682942069,0.0083973287156147,-0.9832053425687703,1125,-156,1117,Louisiana Monroe

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Pac-12,0,Colgate,1,1,41,31,1.1579876438,0.9988244519251848,0.9976489038503694,1355,,1355,Stanford

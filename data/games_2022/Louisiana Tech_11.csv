@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+11,Conference USA,1,UT San Antonio,0,0,7,-44,1.5833759673,0.0012490514632697,-0.9975018970734608,1209,-317,1122,Louisiana Tech

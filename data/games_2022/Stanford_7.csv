@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+7,Pac-12,0,Notre Dame,0,1,16,2,8.1370550694,0.7593393827666857,0.5186787655333713,1325,-472,1357,Stanford

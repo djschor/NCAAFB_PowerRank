@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,American Athletic,0,Arkansas State,1,1,44,12,6.6251425632,0.9278780333409284,0.8557560666818569,1488,239,1492,Memphis

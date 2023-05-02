@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Mid-American,0,San Diego State,0,0,14,-3,7.2881666871,0.8402819304789751,0.6805638609579503,1475,48,1473,Toledo

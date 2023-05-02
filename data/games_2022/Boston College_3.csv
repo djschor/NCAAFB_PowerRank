@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,ACC,0,Maine,1,1,38,21,1.7585986454,0.9495926814031802,0.8991853628063605,1403,,1403,Boston College

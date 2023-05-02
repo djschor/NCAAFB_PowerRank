@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4685720,Bryce Young,QB,Alabama,SEC,0.4804,0.8671,0.0734,0.4019,0.497,0.659,0.439,0.627
+2022,4432734,Jalen Milroe,QB,Alabama,SEC,0.0916,0.122,0.0596,0.0615,0.096,0.171,0.077,0.152
+2022,4685522,Ty Simpson,QB,Alabama,SEC,0.0056,0.0109,0.0,0.0024,0.003,0.012,0.018,0.0

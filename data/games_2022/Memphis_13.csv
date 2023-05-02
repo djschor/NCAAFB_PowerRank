@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,American Athletic,1,SMU,0,0,31,-3,7.3914830244,0.1698720603642797,-0.6602558792714406,1514,9,1513,Memphis

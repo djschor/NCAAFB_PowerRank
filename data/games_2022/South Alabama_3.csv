@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Sun Belt,0,UCLA,0,0,31,-1,10.1726241263,0.2334520274464068,-0.5330959451071864,1402,-288,1410,South Alabama

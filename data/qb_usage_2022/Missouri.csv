@@ -1,0 +1,4 @@
+season,id,name,position,team,conference,usage_overall,usage_pass,usage_rush,usage_firstDown,usage_secondDown,usage_thirdDown,usage_standardDowns,usage_passingDowns
+2022,4429435,Brady Cook,QB,Missouri,SEC,0.589,0.9708,0.2518,0.472,0.576,0.815,0.538,0.76
+2022,4040407,Jack Abraham,QB,Missouri,SEC,0.0075,0.0159,0.0,0.0059,0.007,0.012,0.005,0.011
+2022,4685404,Sam Horn,QB,Missouri,SEC,0.0038,0.0053,0.0024,0.0029,0.004,0.006,0.005,0.004

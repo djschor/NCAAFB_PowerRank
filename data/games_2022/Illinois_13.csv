@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,Big Ten,1,Northwestern,0,1,41,38,1.8357650475,0.9796752525548884,0.959350505109777,1707,389,1768,Illinois

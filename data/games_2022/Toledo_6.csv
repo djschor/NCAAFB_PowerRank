@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Mid-American,1,Northern Illinois,0,1,52,20,1.2907177514,0.9911345606344812,0.9822691212689624,1522,167,1554,Toledo

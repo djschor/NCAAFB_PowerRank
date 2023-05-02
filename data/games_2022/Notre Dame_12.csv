@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+12,FBS Independents,0,Boston College,1,1,44,44,1.3981145578,0.998882744451792,0.9977654889035842,1831,552,1889,Notre Dame

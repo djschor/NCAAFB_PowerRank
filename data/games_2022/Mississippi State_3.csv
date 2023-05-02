@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,SEC,1,LSU,0,0,16,-15,7.5334955079,0.0022321019181497,-0.9955357961637008,1617,82,1578,Mississippi State

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,Big Ten,1,Purdue,0,1,35,4,9.5688027282,0.5149394854165616,0.0298789708331233,1670,35,1674,Penn State

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+2,Pac-12,0,Southern Utah,1,1,73,66,2.3698163999,0.99894905875971,0.99789811751942,1781,,1781,Utah

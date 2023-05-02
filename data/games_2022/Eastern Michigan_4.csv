@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+4,Mid-American,1,Buffalo,1,0,31,-19,4.1444305024,0.2330322345414939,-0.5339355309170122,1386,41,1334,Eastern Michigan

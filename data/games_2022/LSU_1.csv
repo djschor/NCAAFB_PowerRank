@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+1,SEC,0,Florida State,0,0,23,-1,5.7607369579,0.554987763024426,0.1099755260488519,1538,37,1535,LSU

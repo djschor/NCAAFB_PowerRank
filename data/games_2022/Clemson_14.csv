@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+14,ACC,1,North Carolina,0,1,39,29,2.933245348,0.9983985373827284,0.996797074765457,1821,222,1866,Clemson

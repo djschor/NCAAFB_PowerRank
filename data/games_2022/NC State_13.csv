@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+13,ACC,1,North Carolina,0,1,30,3,9.7306633285,0.783315079423933,0.5666301588478659,1579,-26,1585,NC State

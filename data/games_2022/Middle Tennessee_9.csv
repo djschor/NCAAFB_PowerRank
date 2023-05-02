@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+9,Conference USA,1,UTEP,0,1,24,11,6.1256799402,0.9770128125805372,0.9540256251610744,1332,40,1352,Middle Tennessee

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+5,Pac-12,1,Arizona,0,0,20,-23,2.4016515579,0.010056965655244,-0.979886068689512,1189,-130,1147,Colorado

@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+3,Mountain West,0,Utah,0,0,7,-28,1.8594664675,0.001165245179947,-0.9976695096401058,1464,-322,1427,San Diego State

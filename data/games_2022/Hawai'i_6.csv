@@ -1,0 +1,2 @@
+week,conference,conference_game,opponent_name,is_home_game,win,points,point_differential,excitement_index,post_win_prob,post_win_differential,pregame_elo,pregame_elo_differential,postgame_elo,team
+6,Mountain West,1,San Diego State,0,0,14,-2,4.1413785143,0.1326974219216372,-0.7346051561567255,1090,-298,1093,Hawai'i
