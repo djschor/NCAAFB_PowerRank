@@ -143,7 +143,7 @@ function Main({ overallData }: MainProps) {
           {
             title: "PLAYER",
             minWidth: 100,
-            maxWidth: 150,
+            maxWidth: 180,
             field: "player",
             vertAlign: "middle",
             print: false,
@@ -174,7 +174,7 @@ function Main({ overallData }: MainProps) {
             {
             title: "QB TOTAL SCORE",
             minWidth: 50,
-            maxWidth: 150,
+            maxWidth: 180,
             field: "qb_total_score",
             vertAlign: "middle",
             print: false,
@@ -210,7 +210,7 @@ function Main({ overallData }: MainProps) {
             {
                 title: "AQS SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 130,
                 field: "aqs_score",
                 vertAlign: "middle",
                 print: false,
@@ -229,7 +229,7 @@ function Main({ overallData }: MainProps) {
             {
                 title: "QPI SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 130,
                 field: "qpi_score",
                 vertAlign: "middle",
                 print: false,
@@ -247,7 +247,7 @@ function Main({ overallData }: MainProps) {
             {
                 title: "PPI SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 130,
                 field: "ppi_score",
                 vertAlign: "middle",
                 print: false,
@@ -265,7 +265,7 @@ function Main({ overallData }: MainProps) {
             {
                 title: "SEI SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 130,
                 field: "sei_score",
                 vertAlign: "middle",
                 print: false,
@@ -283,7 +283,7 @@ function Main({ overallData }: MainProps) {
             {
                 title: "CRAE SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 130,
                 field: "sei_score",
                 vertAlign: "middle",
                 print: false,
@@ -319,7 +319,7 @@ function Main({ overallData }: MainProps) {
             {
                 title: "ADPSR SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 130,
                 field: "adpsr_score",
                 vertAlign: "middle",
                 print: false,
@@ -337,7 +337,7 @@ function Main({ overallData }: MainProps) {
             {
                 title: "RZER SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 130,
                 field: "reer_score",
                 vertAlign: "middle",
                 print: false,

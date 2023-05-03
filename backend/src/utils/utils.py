@@ -33,7 +33,7 @@ def read_api_key():
 
 
 def read_2022_game_csvs():
-    directory = "/Users/djschor/Projects/ncaafb_power_rank/data/games_2022/"
+    directory = os.environ.get('LOCAL_GAMES_PATH')
     # initialize an empty DataFrame to store all CSV data
     all_data = pd.DataFrame()
 
@@ -47,7 +47,7 @@ def read_2022_game_csvs():
     return all_data
 
 def read_2022_roster_csvs():
-    directory = "/Users/djschor/Projects/ncaafb_power_rank/data/rosters_2022/"
+    directory = os.environ.get('LOCAL_ROSTER_PATH') 
     # initialize an empty DataFrame to store all CSV data
     all_data = pd.DataFrame()
 
@@ -62,7 +62,7 @@ def read_2022_roster_csvs():
 
 
 def read_2022_game_csvs():
-    directory = "/Users/djschor/Projects/ncaafb_power_rank/data/games_2022/"
+    directory =os.environ.get('LOCAL_GAMES_PATH') 
     # initialize an empty DataFrame to store all CSV data
     all_data = pd.DataFrame()
 
@@ -93,7 +93,6 @@ def add_team_column_and_save(directory):
             # save the modified DataFrame back to the same file
             data.to_csv(file_path, index=False)
 
-# directory = "/Users/djschor/Projects/ncaafb_power_rank/data/games_2022/"
 # add_team_column_and_save(directory)
 
 
@@ -101,7 +100,7 @@ import time
 
 def process_save_game_data(year, week, team):
     print("Processing", team, "in week", week)
-    save_dir = '/Users/djschor/Projects/ncaafb_power_rank/data/games_2022'
+    save_dir = os.environ.get('LOCAL_GAMES_PATH') 
     file_path = os.path.join(save_dir, f"{team}_{week}.csv")
     if os.path.isfile(file_path):
         return pd.read_csv(file_path).to_dict(orient='records')[0]
@@ -216,7 +215,3 @@ def add_team_column_and_save_with_roster(directory, roster_df):
             # save the modified DataFrame back to the same file
             data.to_csv(file_path, index=False)
 
-# directory = "/Users/djschor/Projects/ncaafb_power_rank/data/qb_performance_2022"
-# roster_df = read_2022_roster_csvs()
-# roster_df['player'] = roster_df.first_name + ' ' + roster_df.last_name
-# add_team_column_and_save_with_roster(directory, roster_df)

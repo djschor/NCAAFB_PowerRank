@@ -22,7 +22,7 @@ function Main() {
   }, [topMenuStore, location.pathname]);
 
   return (
-    <div className="py-5 md:py-0">
+    <div className="py-5 mx-5 md:py-0">
       <DarkModeSwitcher />
       <MainColorSwitcher />
       <MobileMenu />
@@ -30,13 +30,13 @@ function Main() {
       {/* BEGIN: Top Menu */}
       <nav
         className={clsx([
-          "relative z-50 hidden pt-32 -mt-4 md:block",
+          "relative z-50 hidden pt-32 -mt-8 -mb-1 md:block",
 
           // Animation
           "opacity-0 animate-[0.4s_ease-in-out_0.2s_intro-top-menu] animate-fill-mode-forwards",
         ])}
       >
-        <ul className="flex flex-wrap px-6 xl:px-[50px]">
+        <ul className="flex flex-wrap px-.1 xl:px-[50px]">
           {formattedMenu.map((menu, menuKey) => (
             <li
               className={clsx([

@@ -201,7 +201,7 @@ function Main({ data }: MainProps) {
               {
                 title: "OPPONENT",
                 minWidth: 100,
-                maxWidth: 100,
+                maxWidth: 130,
                 field: "opponent",
                 vertAlign: "middle",
                 print: false,
@@ -242,7 +242,7 @@ function Main({ data }: MainProps) {
             {
                 title: "AQS SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 120,
                 field: "aqs_competitive_score",
                 vertAlign: "middle",
                 print: false,
@@ -261,7 +261,7 @@ function Main({ data }: MainProps) {
             {
                 title: "QPI SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 120,
                 field: "qpi_competitive_score",
                 vertAlign: "middle",
                 print: false,
@@ -279,7 +279,7 @@ function Main({ data }: MainProps) {
             {
                 title: "PPI SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 120,
                 field: "ppi_competitive_score",
                 vertAlign: "middle",
                 print: false,
@@ -297,7 +297,7 @@ function Main({ data }: MainProps) {
             {
                 title: "SEI SCORE",
                 minWidth: 50,
-                maxWidth: 85,
+                maxWidth: 120,
                 field: "sei_competitive_score",
                 vertAlign: "middle",
                 print: false,

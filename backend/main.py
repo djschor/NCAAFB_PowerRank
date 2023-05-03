@@ -1,6 +1,7 @@
 from flask import request, jsonify
 from src.internal_api.queries import get_top_qbs_overall, get_top_qbs_by_week, query_firestore_player_data, get_qb_by_name
 from src.internal_api import app
+from backend.src.api import data_requests as dr
 from src.api.data_requests import search_player
 from src.utils import utils, gcp_utils as gutils
 import pandas as pd
@@ -8,6 +9,12 @@ from flask_cors import CORS, cross_origin
 CORS(app, support_credentials=True, )
 from ariadne import load_schema_from_path
 import os
+
+@app.route('/conferences', methods=['GET'])
+def get_conferences():
+    conference = dr.get_fbs_teams(2022)[['school', 'conference']]
+    result = conference.to_dict('records')
+    return jsonify(result)
 
 @app.route('/player_meta', methods=['GET'])
 def get_meta_data():

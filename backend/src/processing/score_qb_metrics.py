@@ -2,9 +2,9 @@ import pandas as pd
 from functools import reduce
 from sklearn.preprocessing import MinMaxScaler
 # import utils as utils located as src/utils/utils.py
-from src.utils import utils, gcp_utils as gutils
-from src.api import data_requests as dr
-from src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm, score_defense_metrics as sdm, score_qb_metrics as sqm
+from backend.src.utils import utils, gcp_utils as gutils
+from backend.src.api import data_requests as dr
+from backend.src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm, score_defense_metrics as sdm, score_qb_metrics as sqm
 import numpy as np 
 from functools import reduce
 import time 
@@ -17,7 +17,7 @@ import os
 
 
 def read_plays_csv(team, week):
-    file_path = '/Users/djschor/Projects/ncaafb_power_rank/data/plays_2022/'
+    file_path = os.environ.get('LOCAL_PLAYS_PATH')
     file_name = f"{team}_{week}.csv"
     full_path = os.path.join(file_path, file_name)
     cols=['id', 'offense', 'offense_conference', 'defense', 'defense_conference',
@@ -80,7 +80,7 @@ def get_qb_game_metrics_all_games(player, team, year):
     return df 
 
 def get_opponent_defense_metrics(opponent_team, week, year):
-    base_path = "/Users/djschor/Projects/ncaafb_power_rank/data/defense_2022/"
+    base_path = os.environ.get('LOCAL_DEFENSE_PATH')
     
     # Get all the files matching the given team, week, and year
     files = [f for f in os.listdir(base_path) if f.startswith(f"{opponent_team}_{week}_{year}") and f.endswith('.csv')]
@@ -237,7 +237,7 @@ def calculate_qb_performance_weekly_metrics_save_gcp(year, saved=True):
                     qb_name = starting_qb['name']
                     qb_team = starting_qb['team']
                     qb_df = get_qb_game_metrics_all_games(qb_name, qb_team, year).fillna(0)
-                    qb_df.to_csv('/Users/djschor/Projects/ncaafb_power_rank/data/qb_performance_2022/' + qb_name + '.csv')
+                    qb_df.to_csv(os.environ.get('LOCAL_QB_PERFORMANCE_PATH') + qb_name + '.csv')
                     qb_data.append(qb_df)
             print(f"Completed {team_name} QB data")
             return pd.concat(qb_data, ignore_index=True) if qb_data else None
@@ -258,7 +258,7 @@ def calculate_qb_performance_weekly_metrics_save_gcp(year, saved=True):
             return pd.read_csv(file_path)
 
         def concatenate_qb_weekly_saved_csvs():
-            folder_path = "/Users/djschor/Projects/ncaafb_power_rank/data/qb_performance_2022"
+            folder_path = os.environ.get('LOCAL_QB_PERFORMANCE_PATH')
             csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
             with ThreadPoolExecutor() as executor:
                 dataframes = list(executor.map(read_csv, [os.path.join(folder_path, f) for f in csv_files]))

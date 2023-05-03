@@ -7,12 +7,13 @@ import Page2 from "../pages/Page2";
 import QBProfile from "../pages/QBProfile";
 import Home from "../pages/Home";
 import QBHome from "../pages/QBHome";
+import About from "../pages/About";
 
 function Router() {
   const routes = [
     {
       path: "/",
-      element: <SideMenu />,
+      element: <TopMenu />,
       children: [
         {
           path: "/",
@@ -25,6 +26,10 @@ function Router() {
         {
           path: "qb/:qb_name",
           element: <QBProfile />,
+        },
+        {
+          path: "about/",
+          element: <About />,
         },
       ],
     },
@@ -61,6 +66,10 @@ function Router() {
         {
           path: "qb/:qb_name",
           element: <QBProfile />,
+        },
+        {
+          path: "about/",
+          element: <About />,
         },
       ],
     },

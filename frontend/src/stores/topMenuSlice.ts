@@ -26,6 +26,16 @@ const initialState: TopMenuState = {
       pathname: "/qb",
       title: "QBs",
     },
+    {
+      icon: "Info",
+      pathname: "/about",
+      title: "About",
+    },
+    // {
+    //   icon: "MessageCircle",
+    //   pathname: "/about",
+    //   title: "Contact",
+    // },
   ],
 };
 

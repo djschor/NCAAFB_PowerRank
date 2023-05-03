@@ -1,4 +1,4 @@
-from src.utils import utils
+from backend.src.utils import utils
 import os
 import requests
 import pandas as pd
@@ -15,7 +15,7 @@ def make_request(endpoint, params=None):
     return response.json()
 
 def read_qb_usage_csv(team_name):
-    file_path = "/Users/djschor/Projects/ncaafb_power_rank/data/qb_usage_2022"
+    file_path = os.environ.get("LOCAL_QB_USAGE_PATH")
     file_name = f"{team_name}.csv"
     full_path = f"{file_path}/{file_name}"
     
@@ -307,7 +307,7 @@ def read_team_roster_csv(team, year=2022):
     if year != 2022:
         print("Only 2022 rosters are available.")
         return None
-    base_folder = "/Users/djschor/Projects/ncaafb_power_rank/data/rosters_2022"
+    base_folder = os.environ.get('LOCAL_ROSTER_PATH')
     file_name = f"{team}.csv"
     full_path = os.path.join(base_folder, file_name)
     

@@ -8,10 +8,10 @@ import os
 from functools import reduce
 from sklearn.preprocessing import MinMaxScaler
 # import utils as utils located as src/utils/utils.py
-from src.utils import utils, gcp_utils as gutils
-from src.api import data_requests as dr
-from src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm, score_defense_metrics as sdm, score_qb_metrics as sqm
-from src.processing import score_qb_metrics as sqm
+from backend.src.utils import utils, gcp_utils as gutils
+from backend.src.api import data_requests as dr
+from backend.src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm, score_defense_metrics as sdm, score_qb_metrics as sqm
+from backend.src.processing import score_qb_metrics as sqm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from retry import retry
 @retry(tries=1, delay=30, backoff=30, jitter=(1, 3))
@@ -26,7 +26,7 @@ def get_plays_with_retry(year, team, week):
 def save_plays_for_team_and_week(item):
     year, team, week = item
     # plays = get_plays_with_retry(year, team, week)
-    base_folder = "/Users/djschor/Projects/ncaafb_power_rank/data/plays_2022"
+    base_folder = os.environ.get('LOCAL_PLAYS_PATH')
     try:
         plays = dr.get_plays(year=year, team=team, week=week)
     except Exception as e: 
@@ -63,7 +63,7 @@ def get_team_roster_with_retry(team_name, year):
 
 def save_roster_for_team(item):
     year, team_name = item
-    base_folder = "/Users/djschor/Projects/ncaafb_power_rank/data/rosters_2022"
+    base_folder = os.environ.get('LOCAL_ROSTER_PATH')
 
     try:
         roster = get_team_roster_with_retry(team_name, year)
@@ -90,7 +90,7 @@ def save_team_rosters_to_csv(year, max_workers=5):
 
 
 def save_qb_usage_to_csv(year, team_name):
-    base_folder = "/Users/djschor/Projects/ncaafb_power_rank/data/qb_usage_2022"
+    base_folder = os.environ.get('LOCAL_QB_USAGE_PATH')
     qb_usage = dr.get_player_usage(year, team=team_name, position='QB')
 
     if not qb_usage.empty:

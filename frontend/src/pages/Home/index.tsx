@@ -81,7 +81,7 @@ function Main() {
               Top 2022 QB Game Performances by PowerScore
             </h2>
           </div>
-          <WeeklyRankingsTable data={weekRankingsData} />
+          {weekRankingsData && <WeeklyRankingsTable data={weekRankingsData} />}
         </div>
 
         

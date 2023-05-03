@@ -1,7 +1,8 @@
 import { Dispatch, SetStateAction } from "react";
 import { NavigateFunction } from "react-router-dom";
 import { slideUp, slideDown } from "../../utils/helper";
-import { FormattedMenu } from "../../layouts/SideMenu/side-menu";
+// import { FormattedMenu } from "../../layouts/SideMenu/side-menu";
+import { FormattedMenu } from "../../layouts/TopMenu/top-menu";
 
 const linkTo = (
   menu: FormattedMenu,
