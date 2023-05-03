@@ -1,0 +1,5 @@
+data/*
+
+# exclude any .csv files in any directory
+**/*.csv
+.env

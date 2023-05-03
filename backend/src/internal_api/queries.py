@@ -4,9 +4,9 @@ import os
 from functools import reduce
 from sklearn.preprocessing import MinMaxScaler
 # import utils as utils located as src/utils/utils.py
-from backend.src.utils import utils, gcp_utils as gutils
-from backend.src.api import data_requests as dr
-from backend.src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm, score_defense_metrics as sdm, score_qb_metrics as sqm
+from src.utils import utils, gcp_utils as gutils
+from src.api import data_requests as dr
+from src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm, score_defense_metrics as sdm, score_qb_metrics as sqm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from retry import retry
 import functools

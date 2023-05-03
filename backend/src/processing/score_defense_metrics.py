@@ -2,9 +2,9 @@ import pandas as pd
 from functools import reduce
 from sklearn.preprocessing import MinMaxScaler
 # import utils as utils located as src/utils/utils.py
-from backend.src.utils import utils, gcp_utils as gutils
-from backend.src.api import data_requests as dr
-from backend.src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm
+from src.utils import utils, gcp_utils as gutils
+from src.api import data_requests as dr
+from src.processing import calculate_qb_metrics as cqm, calculate_defense_metrics as cdm
 
 def get_defense_game_metrics(team, week, year):
     try:

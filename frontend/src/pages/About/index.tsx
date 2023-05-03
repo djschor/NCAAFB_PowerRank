@@ -7,7 +7,7 @@ const About: React.FC = () => {
     <div className="about-container">
       <h1 className="about-title">NCAA PowerScore</h1>
       <p className="about-description">
-        NCAA PowerScore is a Python project created by Daniel Schorin for
+        NCAA PowerScore is a Python project created by <a href="https://www.linkedin.com/in/daniel-schorin-85a626b1/" className="highlight-link">Daniel Schorin</a>  for
         analyzing and ranking NCAA college football quartback performance by
         using a number of new metrics that evaluate different areas than
         traditional measures. These metrics include:

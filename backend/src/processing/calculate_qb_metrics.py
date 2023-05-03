@@ -3,7 +3,7 @@ import pandas as pd
 import ast
 
 from concurrent.futures import ThreadPoolExecutor
-from backend.src.processing import score_qb_metrics as sqm
+from src.processing import score_qb_metrics as sqm
 import numpy as np 
 def adaptive_quarterback_score(plays_df):
     """

@@ -1,4 +1,4 @@
-from backend.src.utils import utils
+from src.utils import utils
 import os
 import requests
 import pandas as pd
@@ -320,7 +320,6 @@ def read_team_roster_csv(team, year=2022):
     except Exception as e:
         print(f"Error reading CSV: {e}")
         return None
-read_team_roster_csv('Michigan')
 
 def get_team_talent(team, season):
     """

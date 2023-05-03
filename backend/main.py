@@ -1,7 +1,7 @@
 from flask import request, jsonify
 from src.internal_api.queries import get_top_qbs_overall, get_top_qbs_by_week, query_firestore_player_data, get_qb_by_name
 from src.internal_api import app
-from backend.src.api import data_requests as dr
+from src.api import data_requests as dr
 from src.api.data_requests import search_player
 from src.utils import utils, gcp_utils as gutils
 import pandas as pd
@@ -77,7 +77,12 @@ def query_top_qb_weekly_performances():
     return top_document_dicts
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 8080))
+    host = '0.0.0.0'
+    app.run(host=host, port=port, debug=True)
+
+
+    # app.run(debug=True)
 
 
 # def get_top_qb_game_performances(limit):
