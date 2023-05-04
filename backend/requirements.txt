@@ -40,3 +40,4 @@ python-dotenv==1.0.0
 tqdm==4.65.0
 fuzzywuzzy
 flask_cors
+gunicorn

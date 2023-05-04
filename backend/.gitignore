@@ -1,0 +1,4 @@
+# Service account keys
+/keys/*.json
+.env
+/data/*

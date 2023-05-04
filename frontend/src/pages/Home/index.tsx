@@ -33,7 +33,9 @@ function Main() {
     useEffect(() => {
       // fetching qb overall data
       const fetchOverallPlayerData = async () => {
-        const baseUrl = "http://localhost:8000";
+        
+        
+        const baseUrl = "https://shrouded-shore-60391.herokuapp.com";
         const data = await getQBOverallData(baseUrl, "50", "avg_qb_total_score");
         console.log("qb overall ranks:", data);
         setOverallData(data);
@@ -46,7 +48,7 @@ function Main() {
     useEffect(() => {
         // fetching qb overall data
         const fetchWeekRankings = async () => {
-          const baseUrl = "http://localhost:8000";
+          const baseUrl = "https://shrouded-shore-60391.herokuapp.com";
           const data = await getQBWeekData(baseUrl, "50");
           console.log("qb week ranks:", data);
           setWeekRankingsData(data);

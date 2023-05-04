@@ -1,4 +1,4 @@
-from flask import request, jsonify
+from flask import request, jsonify, send_from_directory
 from src.internal_api.queries import get_top_qbs_overall, get_top_qbs_by_week, query_firestore_player_data, get_qb_by_name
 from src.internal_api import app
 from src.api import data_requests as dr
@@ -6,7 +6,10 @@ from src.api.data_requests import search_player
 from src.utils import utils, gcp_utils as gutils
 import pandas as pd
 from flask_cors import CORS, cross_origin
-CORS(app, support_credentials=True, )
+# CORS(app, support_credentials=True)
+# CORS(app, origins='http://localhost:3001', support_credentials=True)
+CORS(app, resources={r"/*": {"origins": "http://localhost:3001"}}, supports_credentials=True)
+
 from ariadne import load_schema_from_path
 import os
 
@@ -14,20 +17,35 @@ import os
 def get_conferences():
     conference = dr.get_fbs_teams(2022)[['school', 'conference']]
     result = conference.to_dict('records')
-    return jsonify(result)
+    resp = jsonify(result)
+    resp.headers['Access-Control-Allow-Origin']='http://localhost:3001'
+    resp.headers['Access-Control-Allow-Methods']='GET, POST, PUT, OPTIONS'
+    resp.headers["Access-Control-Allow-Headers"]="Access-Control-Request-Headers,Access-Control-Allow-Methods,Access-Control-Allow-Headers,Access-Control-Allow-Origin, Origin, X-Requested-With, Content-Type, Accept"
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    return resp
 
 @app.route('/player_meta', methods=['GET'])
 def get_meta_data():
     player_name = request.args.get('player_name')
     result = search_player(player_name).to_dict('records')[0]
-    return jsonify(result)
+    resp = jsonify(result)
+    resp.headers['Access-Control-Allow-Origin']='http://localhost:3001'
+    resp.headers['Access-Control-Allow-Methods']='GET, POST, PUT, OPTIONS'
+    resp.headers["Access-Control-Allow-Headers"]="Access-Control-Request-Headers,Access-Control-Allow-Methods,Access-Control-Allow-Headers,Access-Control-Allow-Origin, Origin, X-Requested-With, Content-Type, Accept"
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    return resp
 
 
 @app.route('/overall_rankings_player', methods=['GET'])
 def overall_rankings_player():
     player_name = request.args.get('player_name')
     result = get_qb_by_name(player_name)
-    return jsonify(result)
+    resp = jsonify(result)
+    resp.headers['Access-Control-Allow-Origin']='http://localhost:3001'
+    resp.headers['Access-Control-Allow-Methods']='GET, POST, PUT, OPTIONS'
+    resp.headers["Access-Control-Allow-Headers"]="Access-Control-Request-Headers,Access-Control-Allow-Methods,Access-Control-Allow-Headers,Access-Control-Allow-Origin, Origin, X-Requested-With, Content-Type, Accept"
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    return resp
 
 @app.route('/player_data', methods=['GET'])
 def get_player_data():
@@ -37,7 +55,12 @@ def get_player_data():
     result = [{k: ('' if isinstance(v, str) else 0) if pd.isna(v) or v is None else v for k, v in d.items()} for d in result]
 
     # print(type(result))
-    return jsonify(result)
+    resp = jsonify(result)
+    resp.headers['Access-Control-Allow-Origin']='http://localhost:3001'
+    resp.headers['Access-Control-Allow-Methods']='GET, POST, PUT, OPTIONS'
+    resp.headers["Access-Control-Allow-Headers"]="Access-Control-Request-Headers,Access-Control-Allow-Methods,Access-Control-Allow-Headers,Access-Control-Allow-Origin, Origin, X-Requested-With, Content-Type, Accept"
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    return resp
 
 
 @app.route('/overall_rankings_top', methods=['GET'])
@@ -45,14 +68,24 @@ def get_overall_rankings():
     top_x = int(request.args.get('top_x'))
     field = request.args.get('field')
     result = get_top_qbs_overall(top_x, field)
-    return jsonify(result)
-
+    resp = jsonify(result)
+    resp.headers['Access-Control-Allow-Origin']='http://localhost:3001'
+    resp.headers['Access-Control-Allow-Methods']='GET, POST, PUT, OPTIONS'
+    resp.headers["Access-Control-Allow-Headers"]="Access-Control-Request-Headers,Access-Control-Allow-Methods,Access-Control-Allow-Headers,Access-Control-Allow-Origin, Origin, X-Requested-With, Content-Type, Accept"
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    return resp
 
 def get_weekly_rankings():
     top_x = int(request.args.get('top_x'))
     week = request.args.get('week')
     result = get_top_qbs_by_week(week, top_x)
-    return jsonify(result)
+    resp = jsonify(result)
+    resp.headers['Access-Control-Allow-Origin']='*'
+    resp.headers['Access-Control-Allow-Methods']='GET, POST, PUT, OPTIONS'
+    resp.headers["Access-Control-Allow-Headers"]="Access-Control-Request-Headers,Access-Control-Allow-Methods,Access-Control-Allow-Headers,Access-Control-Allow-Origin, Origin, X-Requested-With, Content-Type, Accept"
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    return resp
+
 
 from google.cloud import firestore
 
@@ -76,6 +109,15 @@ def query_top_qb_weekly_performances():
     top_document_dicts = [doc.to_dict() for doc in top_documents]
     return top_document_dicts
 
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists(os.path.join("frontend/dist", path)):
+        return send_from_directory("frontend/dist", path)
+    else:
+        return send_from_directory("frontend/dist", "index.html")
+    
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8080))
     host = '0.0.0.0'

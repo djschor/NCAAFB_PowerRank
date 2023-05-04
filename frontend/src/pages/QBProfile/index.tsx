@@ -146,7 +146,7 @@ function Main() {
   useEffect(() => {
     // fetching qb overall data
     const fetchOverallPlayerData = async () => {
-      const baseUrl = 'http://localhost:8000';
+      const baseUrl = 'https://shrouded-shore-60391.herokuapp.com';
       const data = await getQBOverallDataPlayer(baseUrl, formatted_qb_name);
       console.log('qb overall player:', data);
       setOverallData(data);
@@ -169,7 +169,7 @@ function Main() {
   useEffect(() => {
     // fetching qbWeeklyData
     const fetchData = async () => {
-        const baseUrl = 'http://localhost:8000/';
+        const baseUrl = 'https://shrouded-shore-60391.herokuapp.com';
         const playerName = formatted_qb_name;
         const year = 2022;
 
@@ -201,7 +201,7 @@ function Main() {
   useEffect(() => {
     // fetching qbMetaData
     const fetchData = async () => {
-        const baseUrl = 'http://localhost:8000/';
+        const baseUrl = 'https://shrouded-shore-60391.herokuapp.com';
         const playerName = formatted_qb_name;
         console.log('playerName:', playerName)
         const data = await getPlayerMeta(baseUrl, playerName);
